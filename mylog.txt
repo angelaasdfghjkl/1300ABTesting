@@ -1,0 +1,1079 @@
+2020-10-21T20:07:30.251689+00:00 app[api]: Release v1 created by user angela_zhuo@brown.edu
+2020-10-21T20:07:30.251689+00:00 app[api]: Initial release by user angela_zhuo@brown.edu
+2020-10-21T20:07:30.656146+00:00 app[api]: Release v2 created by user angela_zhuo@brown.edu
+2020-10-21T20:07:30.656146+00:00 app[api]: Enable Logplex by user angela_zhuo@brown.edu
+2020-10-21T20:08:12.000000+00:00 app[api]: Build started by user angela_zhuo@brown.edu
+2020-10-21T20:08:45.421624+00:00 app[api]: Deploy 8ef52f2c by user angela_zhuo@brown.edu
+2020-10-21T20:08:45.421624+00:00 app[api]: Release v3 created by user angela_zhuo@brown.edu
+2020-10-21T20:08:45.438362+00:00 app[api]: Scaled to web@1:Free by user angela_zhuo@brown.edu
+2020-10-21T20:08:49.025673+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-21T20:08:52.171479+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-21T20:08:52.177164+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-21T20:08:52.177195+00:00 app[web.1]: * Environment: production
+2020-10-21T20:08:52.177256+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-21T20:08:52.177285+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-21T20:08:52.177333+00:00 app[web.1]: * Debug mode: on
+2020-10-21T20:08:52.185068+00:00 app[web.1]: * Running on http://0.0.0.0:31411/ (Press CTRL+C to quit)
+2020-10-21T20:08:52.185824+00:00 app[web.1]: * Restarting with stat
+2020-10-21T20:08:52.527800+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-21T20:08:52.545537+00:00 app[web.1]: * Debugger is active!
+2020-10-21T20:08:52.547428+00:00 app[web.1]: * Debugger PIN: 224-985-093
+2020-10-21T20:08:53.425534+00:00 heroku[web.1]: State changed from starting to up
+2020-10-21T20:08:55.000000+00:00 app[api]: Build succeeded
+2020-10-21T20:09:07.539400+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=52cfa93b-04d9-4a51-af1e-1baa78ed81d4 fwd="74.66.216.64" dyno=web.1 connect=1ms service=13ms status=200 bytes=9188 protocol=https
+2020-10-21T20:09:07.540110+00:00 app[web.1]: 10.41.169.187 - - [21/Oct/2020 20:09:07] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T20:09:07.622594+00:00 app[web.1]: 10.41.169.187 - - [21/Oct/2020 20:09:07] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T20:09:07.625386+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=3ac07635-715f-4efd-87b7-eec9cb57b47a fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=1117 protocol=https
+2020-10-21T20:09:07.666593+00:00 app[web.1]: 10.37.222.189 - - [21/Oct/2020 20:09:07] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T20:09:07.674048+00:00 app[web.1]: 10.41.169.187 - - [21/Oct/2020 20:09:07] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T20:09:07.695028+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=96d50be5-96ee-406d-bd43-a7d02bce31e4 fwd="74.66.216.64" dyno=web.1 connect=2ms service=35ms status=200 bytes=243856 protocol=https
+2020-10-21T20:09:07.709283+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=b37561d3-181f-4454-bf1c-090dafaa522e fwd="74.66.216.64" dyno=web.1 connect=1ms service=40ms status=200 bytes=618300 protocol=https
+2020-10-21T20:09:07.750608+00:00 app[web.1]: 10.148.121.8 - - [21/Oct/2020 20:09:07] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T20:09:07.754606+00:00 app[web.1]: AB_TESTING: B 1603310947715 0 0 bxxwjswj
+2020-10-21T20:09:07.760177+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:07] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T20:09:07.762290+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=5cc7fbd4-a51e-48c3-83de-a42ab2452a15 fwd="74.66.216.64" dyno=web.1 connect=1ms service=18ms status=200 bytes=155 protocol=https
+2020-10-21T20:09:07.762439+00:00 app[web.1]: 10.111.171.190 - - [21/Oct/2020 20:09:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T20:09:07.768798+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=d5f0e05b-af2f-4b5c-a8dc-76d3359d166e fwd="74.66.216.64" dyno=web.1 connect=1ms service=24ms status=200 bytes=132444 protocol=https
+2020-10-21T20:09:07.775185+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=b3c92453-76c3-4d1f-bda1-69d624993823 fwd="74.66.216.64" dyno=web.1 connect=0ms service=30ms status=200 bytes=160216 protocol=https
+2020-10-21T20:09:07.946590+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=murmuring-brook-73162.herokuapp.com request_id=64f91a73-5fc9-4ba3-9593-c6f26f471940 fwd="74.66.216.64" dyno=web.1 connect=1ms service=3ms status=404 bytes=394 protocol=https
+2020-10-21T20:09:07.949042+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-21T20:09:09.280994+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=1e67f87f-24ed-4c9d-bc0b-8de6d19c62cb fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=9188 protocol=https
+2020-10-21T20:09:09.283410+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:09] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T20:09:09.401069+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=3957427b-f186-4c77-a575-d4a7ba5d74a4 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T20:09:09.402892+00:00 app[web.1]: AB_TESTING: B 1603310949368 0 0 bxxwjswj
+2020-10-21T20:09:09.403477+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:09] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T20:09:10.319054+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=941ddc73-7c8f-4fde-8d94-ea4047cd4e16 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-21T20:09:10.321615+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:10] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T20:09:10.424234+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=9e46ca9c-1be6-4649-8b2c-dabaf99e4eb5 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T20:09:10.425479+00:00 app[web.1]: AB_TESTING: A 1603310950398 0 0 bxxwjswj
+2020-10-21T20:09:10.426515+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:10] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T20:09:11.426968+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:11] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T20:09:11.429943+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=143c6424-9bbf-4203-aa65-2bd58cf1f88b fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-21T20:09:11.505516+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1df9aa6a-b2f2-4920-8126-af75c64ad38f fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T20:09:11.506809+00:00 app[web.1]: AB_TESTING: A 1603310951477 0 0 bxxwjswj
+2020-10-21T20:09:11.507735+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:11] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T20:09:12.459435+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=ad990a73-cf26-4f8e-b395-badd7cd4b204 fwd="74.66.216.64" dyno=web.1 connect=1ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-21T20:09:12.461819+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:12] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T20:09:12.567461+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=6dd9e295-3c8f-449c-b2d5-c4b94b8034d2 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T20:09:12.569422+00:00 app[web.1]: AB_TESTING: A 1603310952536 0 0 bxxwjswj
+2020-10-21T20:09:12.570041+00:00 app[web.1]: 10.145.69.143 - - [21/Oct/2020 20:09:12] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T20:43:16.233011+00:00 heroku[web.1]: Idling
+2020-10-21T20:43:16.235163+00:00 heroku[web.1]: State changed from up to down
+2020-10-21T20:43:20.885719+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-21T20:43:21.010472+00:00 heroku[web.1]: Process exited with status 0
+2020-10-21T21:05:54.390068+00:00 heroku[web.1]: Unidling
+2020-10-21T21:05:54.393691+00:00 heroku[web.1]: State changed from down to starting
+2020-10-21T21:05:58.951506+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-21T21:06:02.137316+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-21T21:06:02.145775+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-21T21:06:02.145868+00:00 app[web.1]: * Environment: production
+2020-10-21T21:06:02.145972+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-21T21:06:02.146063+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-21T21:06:02.146141+00:00 app[web.1]: * Debug mode: on
+2020-10-21T21:06:02.156498+00:00 app[web.1]: * Running on http://0.0.0.0:36134/ (Press CTRL+C to quit)
+2020-10-21T21:06:02.157325+00:00 app[web.1]: * Restarting with stat
+2020-10-21T21:06:02.628501+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-21T21:06:02.646743+00:00 app[web.1]: * Debugger is active!
+2020-10-21T21:06:02.648472+00:00 app[web.1]: * Debugger PIN: 176-319-309
+2020-10-21T21:06:03.390533+00:00 heroku[web.1]: State changed from starting to up
+2020-10-21T21:06:04.442759+00:00 app[web.1]: 10.63.224.151 - - [21/Oct/2020 21:06:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T21:06:04.443251+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=e6d7344a-71cf-4fd9-9ba5-0b5d134ffe91 fwd="74.66.216.64" dyno=web.1 connect=1ms service=15ms status=200 bytes=8883 protocol=https
+2020-10-21T21:06:04.463610+00:00 app[web.1]: 10.63.41.14 - - [21/Oct/2020 21:06:04] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T21:06:04.466620+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=9fc804fe-f0c8-4064-aca7-1db26536f861 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-21T21:40:09.863885+00:00 heroku[web.1]: Idling
+2020-10-21T21:40:09.865780+00:00 heroku[web.1]: State changed from up to down
+2020-10-21T21:40:11.240120+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-21T21:40:11.440445+00:00 heroku[web.1]: Process exited with status 0
+2020-10-21T21:59:08.186313+00:00 heroku[web.1]: Unidling
+2020-10-21T21:59:08.189311+00:00 heroku[web.1]: State changed from down to starting
+2020-10-21T21:59:12.891112+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-21T21:59:15.942292+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-21T21:59:15.953249+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-21T21:59:15.953290+00:00 app[web.1]: * Environment: production
+2020-10-21T21:59:15.953379+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-21T21:59:15.953462+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-21T21:59:15.953528+00:00 app[web.1]: * Debug mode: on
+2020-10-21T21:59:15.965022+00:00 app[web.1]: * Running on http://0.0.0.0:18052/ (Press CTRL+C to quit)
+2020-10-21T21:59:15.966166+00:00 app[web.1]: * Restarting with stat
+2020-10-21T21:59:16.379349+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-21T21:59:16.395367+00:00 app[web.1]: * Debugger is active!
+2020-10-21T21:59:16.395979+00:00 app[web.1]: * Debugger PIN: 189-678-453
+2020-10-21T21:59:17.159744+00:00 heroku[web.1]: State changed from starting to up
+2020-10-21T21:59:18.275641+00:00 app[web.1]: 10.41.141.207 - - [21/Oct/2020 21:59:18] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T21:59:18.277971+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=e72bfcf4-e493-4596-ab73-b70d0e43f78c fwd="74.66.216.64" dyno=web.1 connect=1ms service=22ms status=200 bytes=8883 protocol=https
+2020-10-21T21:59:18.341966+00:00 app[web.1]: 10.41.141.207 - - [21/Oct/2020 21:59:18] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T21:59:18.344149+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=f5bdabce-fde7-49ed-aa0a-4789eb657c5a fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=1117 protocol=https
+2020-10-21T21:59:18.473759+00:00 app[web.1]: 10.41.141.207 - - [21/Oct/2020 21:59:18] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T21:59:18.483714+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=940f2e4c-d202-4b18-97ac-56fc0f064215 fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=243856 protocol=https
+2020-10-21T21:59:18.562095+00:00 app[web.1]: AB_TESTING: A 1603317558510 0 0 glpgzoc
+2020-10-21T21:59:18.563002+00:00 app[web.1]: 10.16.200.69 - - [21/Oct/2020 21:59:18] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T21:59:18.564123+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2ec3450f-71ac-4bf2-9878-b5cf3751aeeb fwd="74.66.216.64" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T21:59:18.592075+00:00 app[web.1]: 10.35.250.120 - - [21/Oct/2020 21:59:18] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T21:59:18.599005+00:00 app[web.1]: 10.41.141.207 - - [21/Oct/2020 21:59:18] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T21:59:18.608375+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=5b101a17-e02f-4c01-9eb9-cd74c0618740 fwd="74.66.216.64" dyno=web.1 connect=0ms service=16ms status=200 bytes=132444 protocol=https
+2020-10-21T21:59:18.633228+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=d7893183-eeae-4f92-976a-ada03ead06a0 fwd="74.66.216.64" dyno=web.1 connect=1ms service=43ms status=200 bytes=618300 protocol=https
+2020-10-21T21:59:18.649595+00:00 app[web.1]: 10.16.200.69 - - [21/Oct/2020 21:59:18] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T21:59:18.663541+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=7848076f-33f8-49a8-bab3-d0d7bcd0bb9a fwd="74.66.216.64" dyno=web.1 connect=1ms service=17ms status=200 bytes=160216 protocol=https
+2020-10-21T21:59:33.393154+00:00 app[web.1]: 10.35.250.120 - - [21/Oct/2020 21:59:33] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T21:59:33.394830+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=5dd0b8d2-b288-4abc-820a-2f583d75649e fwd="74.66.216.64" dyno=web.1 connect=1ms service=6ms status=200 bytes=9188 protocol=https
+2020-10-21T21:59:33.471375+00:00 app[web.1]: AB_TESTING: B 1603317573429 0 0 glpgzoc
+2020-10-21T21:59:33.472323+00:00 app[web.1]: 10.35.250.120 - - [21/Oct/2020 21:59:33] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T21:59:33.474006+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=a5251f02-7f91-4129-8236-71c9e746ff66 fwd="74.66.216.64" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:20.351262+00:00 app[web.1]: AB_TESTING: B 1603317573429 1603317680126 mp1 glpgzoc
+2020-10-21T22:01:20.352114+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:20] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:20.361377+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=3ad345c4-7204-4100-9eaa-edf240610369 fwd="74.66.216.64" dyno=web.1 connect=42ms service=51ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:20.446147+00:00 app[web.1]: AB_TESTING: B 1603317573429 1603317680367 mp1 glpgzoc
+2020-10-21T22:01:20.463248+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:20] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:20.473425+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1d6f992d-cbbc-4668-931b-98309b727331 fwd="74.66.216.64" dyno=web.1 connect=15ms service=60ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:21.175535+00:00 app[web.1]: AB_TESTING: B 1603317573429 1603317681136 mp1 glpgzoc
+2020-10-21T22:01:21.177218+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:21] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:21.179515+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=565c2b71-7102-414e-9288-5cf6677a8c5b fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:22.238431+00:00 app[web.1]: AB_TESTING: B 1603317573429 1603317682186 mp2 glpgzoc
+2020-10-21T22:01:22.241001+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:22] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:22.246023+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1c9afc30-f651-4756-abae-baedeab1e9fd fwd="74.66.216.64" dyno=web.1 connect=0ms service=31ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:22.738965+00:00 app[web.1]: AB_TESTING: B 1603317573429 1603317682688 mp2 glpgzoc
+2020-10-21T22:01:22.739681+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:22] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:22.746157+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=4c7a8eb7-6e2e-4252-a9ac-3d7290c42203 fwd="74.66.216.64" dyno=web.1 connect=0ms service=25ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:23.662475+00:00 app[web.1]: AB_TESTING: B 1603317573429 1603317683629 mp3 glpgzoc
+2020-10-21T22:01:23.663151+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:23.665657+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=045c19de-9758-41bc-9e66-ffca9fb95fb8 fwd="74.66.216.64" dyno=web.1 connect=0ms service=9ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:24.071060+00:00 app[web.1]: AB_TESTING: B 1603317573429 1603317684025 mp3 glpgzoc
+2020-10-21T22:01:24.079299+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:24.081959+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=a3a1d9c5-848e-47fe-9e3b-2a2d9a54cbd3 fwd="74.66.216.64" dyno=web.1 connect=0ms service=25ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:25.548838+00:00 app[web.1]: AB_TESTING: B 1603317573429 1603317685505 mp4 glpgzoc
+2020-10-21T22:01:25.549844+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:25] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:25.552165+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ba2ea516-5ad5-4837-8b37-650d742d65be fwd="74.66.216.64" dyno=web.1 connect=3ms service=14ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:26.441493+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:26] "[37mGET /checkout?version=B&mp1=3&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:01:26.443898+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=3&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=079234d5-5af8-4ae1-bbe2-688fbaf8d185 fwd="74.66.216.64" dyno=web.1 connect=0ms service=15ms status=200 bytes=5236 protocol=https
+2020-10-21T22:01:26.511281+00:00 app[web.1]: AB_TESTING: C 1603317686477 0 0 glpgzoc
+2020-10-21T22:01:26.512053+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:26.518887+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=c5e8e8d4-b90e-407c-8a2b-0b1172b52a49 fwd="74.66.216.64" dyno=web.1 connect=0ms service=15ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:27.895322+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:27] "[37mGET /?version=B&mp1=3&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:01:27.897648+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=3&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=de9366c1-cbb6-4c00-ae75-5a6f387ecce0 fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=9188 protocol=https
+2020-10-21T22:01:27.977428+00:00 app[web.1]: AB_TESTING: B 1603317687938 0 0 glpgzoc
+2020-10-21T22:01:27.983340+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:27.993432+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=112a740f-a27a-418a-8a2c-ffb01310eeb9 fwd="74.66.216.64" dyno=web.1 connect=0ms service=28ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:28.638200+00:00 app[web.1]: AB_TESTING: B 1603317687938 1603317688559 mp1 glpgzoc
+2020-10-21T22:01:28.639094+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:28.642429+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=98586d3b-a777-4ebc-ba77-958b65aaf5a0 fwd="74.66.216.64" dyno=web.1 connect=0ms service=42ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:29.871734+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:29] "[37mGET /checkout?version=B&mp1=4&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:01:29.874010+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=4&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=a7c3ac6f-eaf7-448d-bcc6-f94d3ce22938 fwd="74.66.216.64" dyno=web.1 connect=1ms service=6ms status=200 bytes=5236 protocol=https
+2020-10-21T22:01:29.950646+00:00 app[web.1]: AB_TESTING: C 1603317689906 0 0 glpgzoc
+2020-10-21T22:01:29.958152+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:29.960688+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=8db7e85f-e041-4f36-a32e-96cc3fa8af95 fwd="74.66.216.64" dyno=web.1 connect=0ms service=15ms status=200 bytes=155 protocol=https
+2020-10-21T22:01:31.444810+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:31] "[37mGET /?version=B&mp1=4&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:01:31.454559+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=4&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=43d55ec4-e35a-41e0-b46b-8c54cc8d6454 fwd="74.66.216.64" dyno=web.1 connect=3ms service=56ms status=200 bytes=9188 protocol=https
+2020-10-21T22:01:31.522201+00:00 app[web.1]: AB_TESTING: B 1603317691485 0 0 glpgzoc
+2020-10-21T22:01:31.529475+00:00 app[web.1]: 10.71.246.139 - - [21/Oct/2020 22:01:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:01:31.532010+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=e5e6eb34-0f2a-4fdc-ad6e-810f75d5e3a8 fwd="74.66.216.64" dyno=web.1 connect=8ms service=16ms status=200 bytes=155 protocol=https
+2020-10-21T22:36:35.842387+00:00 heroku[web.1]: Idling
+2020-10-21T22:36:35.845104+00:00 heroku[web.1]: State changed from up to down
+2020-10-21T22:36:36.988387+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-21T22:36:37.151775+00:00 heroku[web.1]: Process exited with status 0
+2020-10-21T22:38:13.568352+00:00 heroku[web.1]: Unidling
+2020-10-21T22:38:13.584136+00:00 heroku[web.1]: State changed from down to starting
+2020-10-21T22:38:18.604556+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-21T22:38:21.688502+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-21T22:38:21.702858+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-21T22:38:21.702910+00:00 app[web.1]: * Environment: production
+2020-10-21T22:38:21.703008+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-21T22:38:21.703083+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-21T22:38:21.703236+00:00 app[web.1]: * Debug mode: on
+2020-10-21T22:38:21.718818+00:00 app[web.1]: * Running on http://0.0.0.0:46297/ (Press CTRL+C to quit)
+2020-10-21T22:38:21.718827+00:00 app[web.1]: * Restarting with stat
+2020-10-21T22:38:22.238631+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-21T22:38:22.259179+00:00 app[web.1]: * Debugger is active!
+2020-10-21T22:38:22.261062+00:00 app[web.1]: * Debugger PIN: 149-132-620
+2020-10-21T22:38:23.050665+00:00 heroku[web.1]: State changed from starting to up
+2020-10-21T22:38:25.668052+00:00 app[web.1]: 10.63.224.151 - - [21/Oct/2020 22:38:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:38:25.668244+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=671f7a05-bd1b-4711-a67b-b5d5413c783a fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=9188 protocol=https
+2020-10-21T22:38:25.753822+00:00 app[web.1]: 10.63.224.151 - - [21/Oct/2020 22:38:25] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T22:38:25.753993+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=4d006b70-97dc-42ae-ac1a-3a5067ebece2 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=1117 protocol=https
+2020-10-21T22:38:25.811019+00:00 app[web.1]: 10.63.224.151 - - [21/Oct/2020 22:38:25] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T22:38:25.818712+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:25] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:38:25.823728+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=b10750e3-6285-41f4-9f05-d68b45674db4 fwd="74.66.216.64" dyno=web.1 connect=1ms service=17ms status=200 bytes=243856 protocol=https
+2020-10-21T22:38:25.841472+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=1a7f31e6-b1ad-4bae-bb48-d5dba9fc19f4 fwd="74.66.216.64" dyno=web.1 connect=1ms service=30ms status=200 bytes=618300 protocol=https
+2020-10-21T22:38:25.844282+00:00 app[web.1]: 10.31.72.133 - - [21/Oct/2020 22:38:25] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:38:25.847356+00:00 app[web.1]: 10.16.200.69 - - [21/Oct/2020 22:38:25] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:38:25.849576+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=8e532b59-9742-4848-91e7-3b49551f4a99 fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=132444 protocol=https
+2020-10-21T22:38:25.855273+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=559332ff-4712-4712-9b9a-230a0483f2ca fwd="74.66.216.64" dyno=web.1 connect=1ms service=21ms status=200 bytes=160216 protocol=https
+2020-10-21T22:38:26.454560+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cb01c84b-c257-4e3a-abad-fe8f868c4774 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:26.456380+00:00 app[web.1]: AB_TESTING: B 1603319906430 0 0 sjevla
+2020-10-21T22:38:26.457138+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:31.726352+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=41c0978a-9f85-43c5-97ee-b89e2ee1f6f2 fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:31.728277+00:00 app[web.1]: AB_TESTING: B 1603319906430 1603319911700 mp1 sjevla
+2020-10-21T22:38:31.728826+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:39.634492+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=a2c13a7b-edc0-4d7f-8249-121d084b6481 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:39.636533+00:00 app[web.1]: AB_TESTING: B 1603319906430 1603319919608 mp2 sjevla
+2020-10-21T22:38:39.637082+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:40.897353+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=4d44a63e-4dc6-43e8-ac6c-0a7e09f3abde fwd="74.66.216.64" dyno=web.1 connect=2ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:40.899414+00:00 app[web.1]: AB_TESTING: B 1603319906430 1603319920858 mp3 sjevla
+2020-10-21T22:38:40.899970+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:41.393856+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cb9330b0-f19e-49ed-990c-3554115e8c46 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:41.395378+00:00 app[web.1]: AB_TESTING: B 1603319906430 1603319921376 mp4 sjevla
+2020-10-21T22:38:41.396245+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:41] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:43.352429+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=1&mp2=1&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=2c5803e3-7514-44c2-86ab-028d040a187b fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=5236 protocol=https
+2020-10-21T22:38:43.354335+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:43] "[37mGET /checkout?version=B&mp1=1&mp2=1&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:38:43.439180+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=e7a49136-2dac-4fa4-a316-d646d9fc7cad fwd="74.66.216.64" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:43.440339+00:00 app[web.1]: AB_TESTING: C 1603319923402 0 0 sjevla
+2020-10-21T22:38:43.441595+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:44.661381+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=1&mp2=1&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=6fc7e96d-ac84-440c-84a7-1f291dcad30d fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=9188 protocol=https
+2020-10-21T22:38:44.663784+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:44] "[37mGET /?version=B&mp1=1&mp2=1&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:38:44.722003+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=31a98138-a3a1-48af-af30-4f774b3b2053 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:44.723819+00:00 app[web.1]: AB_TESTING: B 1603319924703 0 0 sjevla
+2020-10-21T22:38:44.724546+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:46.327121+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=99b3bf42-8f99-4509-8dd4-55173c0620eb fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:46.329009+00:00 app[web.1]: AB_TESTING: B 1603319924703 1603319926306 mp4 sjevla
+2020-10-21T22:38:46.329780+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:46] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:46.540197+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=72ee3586-12b4-4636-b470-c0620d728384 fwd="74.66.216.64" dyno=web.1 connect=2ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:46.541667+00:00 app[web.1]: AB_TESTING: B 1603319924703 1603319926508 mp4 sjevla
+2020-10-21T22:38:46.542880+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:46] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:38:51.258573+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=1&mp2=1&mp3=1&mp4=3" host=murmuring-brook-73162.herokuapp.com request_id=517a1b40-baa4-4a1a-b9df-0bffa836e478 fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=5236 protocol=https
+2020-10-21T22:38:51.261032+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:51] "[37mGET /checkout?version=B&mp1=1&mp2=1&mp3=1&mp4=3 HTTP/1.1[0m" 200 -
+2020-10-21T22:38:51.320076+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2c9af247-b1e6-42a3-a77f-cf1ab2bed1d2 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:38:51.321738+00:00 app[web.1]: AB_TESTING: C 1603319931300 0 0 sjevla
+2020-10-21T22:38:51.322779+00:00 app[web.1]: 10.30.16.105 - - [21/Oct/2020 22:38:51] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:40.664626+00:00 app[web.1]: 10.35.179.103 - - [21/Oct/2020 22:40:40] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:40:40.668576+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=9aa94946-afbf-4c1c-b2c0-c2d0fcb1f1d4 fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=9188 protocol=https
+2020-10-21T22:40:40.754900+00:00 app[web.1]: 10.35.179.103 - - [21/Oct/2020 22:40:40] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T22:40:40.757330+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=af15ad15-fbdd-4c61-889d-f0050a2da29b fwd="74.66.216.64" dyno=web.1 connect=1ms service=6ms status=200 bytes=1117 protocol=https
+2020-10-21T22:40:40.795349+00:00 app[web.1]: 10.35.179.103 - - [21/Oct/2020 22:40:40] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T22:40:40.810892+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=9bb26684-9e75-43b9-acb0-63833fe78a03 fwd="74.66.216.64" dyno=web.1 connect=1ms service=15ms status=200 bytes=243856 protocol=https
+2020-10-21T22:40:40.861187+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:40] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:40:40.888953+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=4d1096bf-b172-48f3-b58b-9da6561be4b9 fwd="74.66.216.64" dyno=web.1 connect=0ms service=33ms status=200 bytes=618300 protocol=https
+2020-10-21T22:40:40.911550+00:00 app[web.1]: 10.73.248.115 - - [21/Oct/2020 22:40:40] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:40:40.921850+00:00 app[web.1]: 10.7.155.197 - - [21/Oct/2020 22:40:40] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:40:40.932148+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=f76acaf2-e5e9-42bc-96dc-001ef9cf5a24 fwd="74.66.216.64" dyno=web.1 connect=1ms service=33ms status=200 bytes=132444 protocol=https
+2020-10-21T22:40:40.934594+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=bf7a11e4-0cb8-41de-adba-a7cf91a788d9 fwd="74.66.216.64" dyno=web.1 connect=1ms service=35ms status=200 bytes=160216 protocol=https
+2020-10-21T22:40:40.995276+00:00 app[web.1]: AB_TESTING: B 1603320040955 0 0 pljtuwt
+2020-10-21T22:40:40.996577+00:00 app[web.1]: 10.35.179.103 - - [21/Oct/2020 22:40:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:40.998058+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=c467f90c-3052-4992-bb8d-a3ffbcff3cca fwd="74.66.216.64" dyno=web.1 connect=2ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:40:43.493124+00:00 app[web.1]: AB_TESTING: B 1603320040955 1603320043472 mp3 pljtuwt
+2020-10-21T22:40:43.493917+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:43.494045+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cff1a430-6913-4753-bd2e-40157cb60520 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:40:44.792049+00:00 app[web.1]: AB_TESTING: B 1603320040955 1603320044766 mp2 pljtuwt
+2020-10-21T22:40:44.792741+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=c7716978-bd20-49c7-827c-9c4189edb431 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:40:44.792988+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:45.769562+00:00 app[web.1]: AB_TESTING: B 1603320040955 1603320045744 mp1 pljtuwt
+2020-10-21T22:40:45.772425+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=01b1ab8b-cd1e-421a-aebd-1328571d939e fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=155 protocol=https
+2020-10-21T22:40:45.772474+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:45] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:52.084341+00:00 app[web.1]: AB_TESTING: B 1603320040955 1603320052041 mp4 pljtuwt
+2020-10-21T22:40:52.085114+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:52] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:52.087846+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=53565784-bbfa-48db-bf2a-7ff3fb72b52b fwd="74.66.216.64" dyno=web.1 connect=0ms service=19ms status=200 bytes=155 protocol=https
+2020-10-21T22:40:53.319378+00:00 app[web.1]: AB_TESTING: B 1603320040955 1603320053271 mp3 pljtuwt
+2020-10-21T22:40:53.320084+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:53] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:53.320247+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=32a2a3da-b8fa-40b2-8c7c-a6158a2a57c3 fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=155 protocol=https
+2020-10-21T22:40:54.722134+00:00 app[web.1]: AB_TESTING: B 1603320040955 1603320054689 mp1 pljtuwt
+2020-10-21T22:40:54.723787+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:54] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:54.723856+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=76dd6f94-098c-433f-9ea5-f0bb1baf04df fwd="74.66.216.64" dyno=web.1 connect=0ms service=14ms status=200 bytes=155 protocol=https
+2020-10-21T22:40:56.408960+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=2&mp2=1&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=b6e626ce-5f4e-44d6-a660-01c8e2150497 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=5236 protocol=https
+2020-10-21T22:40:56.408964+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:56] "[37mGET /checkout?version=B&mp1=2&mp2=1&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:40:56.578920+00:00 app[web.1]: AB_TESTING: C 1603320056544 0 0 pljtuwt
+2020-10-21T22:40:56.579760+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:56] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:56.583566+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=39552bbc-0cb7-48e1-85d0-2ff64403bf7f fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:40:58.168703+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:58] "[37mGET /?version=B&mp1=2&mp2=1&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:40:58.169656+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=2&mp2=1&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=de8134d8-ab42-43fe-9492-a8f120d4b7c7 fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=9188 protocol=https
+2020-10-21T22:40:58.260233+00:00 app[web.1]: AB_TESTING: B 1603320058209 0 0 pljtuwt
+2020-10-21T22:40:58.261176+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:40:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:40:58.262173+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=7644e511-23cd-445e-b601-d0da1c4d91ac fwd="74.66.216.64" dyno=web.1 connect=0ms service=13ms status=200 bytes=155 protocol=https
+2020-10-21T22:41:07.044157+00:00 app[web.1]: AB_TESTING: B 1603320058209 1603320067006 mp2 pljtuwt
+2020-10-21T22:41:07.045229+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:41:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:41:07.051500+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=02c24efa-7f35-4306-a4a4-b2c6305a367f fwd="74.66.216.64" dyno=web.1 connect=0ms service=19ms status=200 bytes=155 protocol=https
+2020-10-21T22:41:07.799603+00:00 app[web.1]: AB_TESTING: B 1603320058209 1603320067775 mp3 pljtuwt
+2020-10-21T22:41:07.818404+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:41:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:41:07.825892+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=50245c1b-f15b-4200-977a-96b7517c6ed5 fwd="74.66.216.64" dyno=web.1 connect=0ms service=30ms status=200 bytes=155 protocol=https
+2020-10-21T22:41:09.362753+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:41:09] "[37mGET /checkout?version=B&mp1=2&mp2=2&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:41:09.366194+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=2&mp2=2&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=469903a4-7e4c-4862-9d8f-3fa455cb1076 fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=5236 protocol=https
+2020-10-21T22:41:09.426982+00:00 app[web.1]: AB_TESTING: C 1603320069402 0 0 pljtuwt
+2020-10-21T22:41:09.428653+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=3d158dd9-0184-488d-b333-bf4a736949de fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:41:09.428774+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:41:09] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:41:51.637520+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=2&mp2=2&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=ff2e567e-187d-4607-b0be-563bb4bc23f5 fwd="74.66.216.64" dyno=web.1 connect=0ms service=6ms status=200 bytes=9188 protocol=https
+2020-10-21T22:41:51.637707+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:41:51] "[37mGET /?version=B&mp1=2&mp2=2&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:41:51.711620+00:00 app[web.1]: AB_TESTING: B 1603320111685 0 0 pljtuwt
+2020-10-21T22:41:51.712268+00:00 app[web.1]: 10.52.9.178 - - [21/Oct/2020 22:41:51] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:41:51.712321+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=78dbf2be-c766-4873-9620-06f382c7d0af fwd="74.66.216.64" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:22.952941+00:00 app[web.1]: 10.81.229.85 - - [21/Oct/2020 22:43:22] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:43:22.953731+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=a51198ec-1935-44e0-8741-eff20d0407d5 fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=9188 protocol=https
+2020-10-21T22:43:23.003778+00:00 app[web.1]: 10.81.229.85 - - [21/Oct/2020 22:43:23] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T22:43:23.004749+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=8716b76e-e823-47a8-89ab-827ead93a54a fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=1117 protocol=https
+2020-10-21T22:43:23.083128+00:00 app[web.1]: 10.81.229.85 - - [21/Oct/2020 22:43:23] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T22:43:23.094683+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=397a2c2c-1cb4-4c72-8e36-54457a65f96f fwd="74.66.216.64" dyno=web.1 connect=0ms service=15ms status=200 bytes=243856 protocol=https
+2020-10-21T22:43:23.118176+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:23] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:43:23.119302+00:00 app[web.1]: 10.13.174.43 - - [21/Oct/2020 22:43:23] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:43:23.136926+00:00 app[web.1]: 10.11.198.97 - - [21/Oct/2020 22:43:23] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:43:23.141307+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=8f9e8f3c-af54-4a84-ae79-c0cc14604a64 fwd="74.66.216.64" dyno=web.1 connect=0ms service=30ms status=200 bytes=132444 protocol=https
+2020-10-21T22:43:23.150003+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=d8c996bb-9cde-4281-8887-0328c029affa fwd="74.66.216.64" dyno=web.1 connect=1ms service=27ms status=200 bytes=160216 protocol=https
+2020-10-21T22:43:23.154007+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=5dda7005-2cb9-4c07-aea2-86590c3763c4 fwd="74.66.216.64" dyno=web.1 connect=0ms service=43ms status=200 bytes=618300 protocol=https
+2020-10-21T22:43:23.225005+00:00 app[web.1]: AB_TESTING: B 1603320203202 0 0 vjmosyfw
+2020-10-21T22:43:23.225728+00:00 app[web.1]: 10.81.229.85 - - [21/Oct/2020 22:43:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:23.226622+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=5e37542f-46b5-4dd3-9643-d0a9d76e93bf fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:26.212622+00:00 app[web.1]: AB_TESTING: B 1603320203202 1603320206134 mp1 vjmosyfw
+2020-10-21T22:43:26.213402+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:26.216276+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=db4e580a-7b57-4118-ae02-9d77abbc7b6c fwd="74.66.216.64" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:27.473904+00:00 app[web.1]: AB_TESTING: B 1603320203202 1603320207451 mp2 vjmosyfw
+2020-10-21T22:43:27.474750+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:27.477343+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=b41cf7d5-8a26-4327-a09c-d46e6ac96642 fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:27.685720+00:00 app[web.1]: AB_TESTING: B 1603320203202 1603320207645 mp2 vjmosyfw
+2020-10-21T22:43:27.687014+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:27.687755+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=0e63c5f0-e059-4239-9f92-96c3df1b7744 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:29.480605+00:00 app[web.1]: AB_TESTING: B 1603320203202 1603320209454 mp4 vjmosyfw
+2020-10-21T22:43:29.481423+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:29.481776+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=40290d21-1600-4f80-8727-bd11aebd66f6 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:30.171956+00:00 app[web.1]: AB_TESTING: B 1603320203202 1603320210147 mp3 vjmosyfw
+2020-10-21T22:43:30.173151+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:30.173833+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=53f3e189-2d7a-4c8b-9d71-8335f87faca4 fwd="74.66.216.64" dyno=web.1 connect=3ms service=9ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:35.663976+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:35] "[37mGET /checkout?version=B&mp1=1&mp2=2&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:43:35.664422+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=1&mp2=2&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=8b042e38-71fc-4556-8f43-6d7c646fce0c fwd="74.66.216.64" dyno=web.1 connect=0ms service=6ms status=200 bytes=5236 protocol=https
+2020-10-21T22:43:35.728438+00:00 app[web.1]: AB_TESTING: C 1603320215709 0 0 vjmosyfw
+2020-10-21T22:43:35.729554+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:35] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:35.729869+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=76cb7c9e-2164-43cb-bc7a-e8324b453a55 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:37.066779+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:37] "[37mGET /?version=B&mp1=1&mp2=2&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:43:37.067475+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=1&mp2=2&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=9cf1150f-b4f1-478f-b4b1-714f8dd7dd59 fwd="74.66.216.64" dyno=web.1 connect=0ms service=14ms status=200 bytes=9188 protocol=https
+2020-10-21T22:43:37.152496+00:00 app[web.1]: AB_TESTING: B 1603320217110 0 0 vjmosyfw
+2020-10-21T22:43:37.155003+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:37.155770+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1bce87a5-aa6d-403f-b9c6-aa1cd21fdd67 fwd="74.66.216.64" dyno=web.1 connect=0ms service=6ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:38.149651+00:00 app[web.1]: AB_TESTING: B 1603320217110 1603320218131 mp1 vjmosyfw
+2020-10-21T22:43:38.150458+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:38.151172+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=46c83788-2cd8-4dcb-9344-0c03b2d875cc fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:39.475434+00:00 app[web.1]: AB_TESTING: B 1603320217110 1603320219455 mp2 vjmosyfw
+2020-10-21T22:43:39.477630+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:39.477990+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=6b5ec60b-1027-4efd-abca-927f2220c8d2 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:42.594272+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:42] "[37mGET /checkout?version=B&mp1=2&mp2=3&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:43:42.599525+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=2&mp2=3&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=831c817d-a0a7-45cb-89c9-fe06eee28946 fwd="74.66.216.64" dyno=web.1 connect=1ms service=8ms status=200 bytes=5236 protocol=https
+2020-10-21T22:43:42.690564+00:00 app[web.1]: AB_TESTING: C 1603320222638 0 0 vjmosyfw
+2020-10-21T22:43:42.691559+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:42.691871+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=6e87249e-6fe2-4fb7-8917-88839e61466f fwd="74.66.216.64" dyno=web.1 connect=4ms service=12ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:44.213484+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:44] "[37mGET /?version=B&mp1=2&mp2=3&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:43:44.214208+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=2&mp2=3&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=e5b5b5a1-28b6-437e-86cb-7f4034e80a4c fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=9188 protocol=https
+2020-10-21T22:43:44.282550+00:00 app[web.1]: AB_TESTING: B 1603320224254 0 0 vjmosyfw
+2020-10-21T22:43:44.289365+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:44.290158+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=517a95a8-980f-4db5-a2c0-92acedd26171 fwd="74.66.216.64" dyno=web.1 connect=0ms service=14ms status=200 bytes=155 protocol=https
+2020-10-21T22:43:47.087603+00:00 app[web.1]: AB_TESTING: B 1603320224254 1603320227065 mp3 vjmosyfw
+2020-10-21T22:43:47.089957+00:00 app[web.1]: 10.45.78.78 - - [21/Oct/2020 22:43:47] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:43:47.090648+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=e48ba2c1-db44-41c4-8591-c1de51d45a04 fwd="74.66.216.64" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T22:45:47.518695+00:00 app[web.1]: 10.45.161.126 - - [21/Oct/2020 22:45:47] "[37mGET /checkout?version=B&mp1=2&mp2=3&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:45:47.520589+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=2&mp2=3&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=10c07387-76c5-49c0-a38d-00e3348fbe78 fwd="74.66.216.64" dyno=web.1 connect=1ms service=12ms status=200 bytes=5236 protocol=https
+2020-10-21T22:45:47.598767+00:00 app[web.1]: AB_TESTING: C 1603320347566 0 0 vjmosyfw
+2020-10-21T22:45:47.601009+00:00 app[web.1]: 10.45.161.126 - - [21/Oct/2020 22:45:47] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:45:47.602635+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=b8997522-df3a-4863-b614-70c6a13e4f4e fwd="74.66.216.64" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:24.592129+00:00 app[web.1]: 10.30.93.74 - - [21/Oct/2020 22:47:24] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:47:24.594079+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=676dccb3-eee6-4244-b025-05e096661d2d fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=9188 protocol=https
+2020-10-21T22:47:24.692516+00:00 app[web.1]: 10.30.93.74 - - [21/Oct/2020 22:47:24] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T22:47:24.694517+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=fb207db8-202d-43c2-b3fe-81018d5d37b2 fwd="74.66.216.64" dyno=web.1 connect=0ms service=21ms status=200 bytes=1117 protocol=https
+2020-10-21T22:47:24.736598+00:00 app[web.1]: 10.30.93.74 - - [21/Oct/2020 22:47:24] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T22:47:24.755698+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=d9e5bc7c-21ff-42fc-bda2-7be613f21fee fwd="74.66.216.64" dyno=web.1 connect=0ms service=20ms status=200 bytes=243856 protocol=https
+2020-10-21T22:47:24.757821+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:24] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:47:24.763492+00:00 app[web.1]: 10.31.251.32 - - [21/Oct/2020 22:47:24] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:47:24.769108+00:00 app[web.1]: 10.93.223.38 - - [21/Oct/2020 22:47:24] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:47:24.778203+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=c7fdb9ba-24f7-46e7-8cef-c15768dc6aea fwd="74.66.216.64" dyno=web.1 connect=3ms service=25ms status=200 bytes=132444 protocol=https
+2020-10-21T22:47:24.793213+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=d14c2dce-8bf2-494e-9f62-5e0a8a20f902 fwd="74.66.216.64" dyno=web.1 connect=0ms service=39ms status=200 bytes=160216 protocol=https
+2020-10-21T22:47:24.799166+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=33f6aebe-a773-49bc-a4aa-a5a74465b6dc fwd="74.66.216.64" dyno=web.1 connect=1ms service=47ms status=200 bytes=618300 protocol=https
+2020-10-21T22:47:24.959592+00:00 app[web.1]: AB_TESTING: B 1603320444910 0 0 ljcblgtfo
+2020-10-21T22:47:24.960515+00:00 app[web.1]: 10.30.93.74 - - [21/Oct/2020 22:47:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:24.962593+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=42ce1408-42aa-49af-8d17-ebd0247bb4cb fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:26.714700+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:26] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:47:26.715361+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=630e1c2a-43e5-4888-b832-709a7b9db336 fwd="74.66.216.64" dyno=web.1 connect=0ms service=13ms status=200 bytes=8883 protocol=https
+2020-10-21T22:47:26.788706+00:00 app[web.1]: AB_TESTING: A 1603320446762 0 0 ljcblgtfo
+2020-10-21T22:47:26.790595+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:26.790716+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=be095279-ecde-458a-941d-c770e06ddc9d fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:28.064271+00:00 app[web.1]: AB_TESTING: A 1603320446762 1603320448040 mp1 ljcblgtfo
+2020-10-21T22:47:28.065168+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:28.065333+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=24158c2e-e740-4ebd-b07a-513de14db80a fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:28.699634+00:00 app[web.1]: AB_TESTING: A 1603320446762 1603320448637 mp1 ljcblgtfo
+2020-10-21T22:47:28.700300+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:28.701314+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=c192a21e-8960-483f-8213-a8453d47d64f fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:28.828899+00:00 app[web.1]: AB_TESTING: A 1603320446762 1603320448807 mp1 ljcblgtfo
+2020-10-21T22:47:28.829760+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:28.835940+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=0af07033-69aa-48fd-9d3e-138d20985b0a fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:29.898081+00:00 app[web.1]: AB_TESTING: A 1603320446762 1603320449841 mp2 ljcblgtfo
+2020-10-21T22:47:29.898942+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:29.901251+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=9ddecce6-5697-499d-8a46-6fbdc1b92792 fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:30.032764+00:00 app[web.1]: AB_TESTING: A 1603320446762 1603320450011 mp2 ljcblgtfo
+2020-10-21T22:47:30.035408+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:30.036429+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1002b977-790a-44f0-8495-6735c83ab6c3 fwd="74.66.216.64" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:31.325783+00:00 app[web.1]: AB_TESTING: A 1603320446762 1603320451295 mp4 ljcblgtfo
+2020-10-21T22:47:31.326811+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:31.330440+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=bfed2ddc-b241-496e-b250-aa2d6003fd6c fwd="74.66.216.64" dyno=web.1 connect=4ms service=12ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:31.824781+00:00 app[web.1]: AB_TESTING: A 1603320446762 1603320451785 mp4 ljcblgtfo
+2020-10-21T22:47:31.825442+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:31.825474+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=c71d861f-c73b-4296-9bba-eee105687478 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:32.436909+00:00 app[web.1]: AB_TESTING: A 1603320446762 1603320452403 mp3 ljcblgtfo
+2020-10-21T22:47:32.437597+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:32] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:32.437774+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=515c3e58-fbda-4a9f-94a7-62d814606786 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:47:33.191639+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:33] "[37mGET /checkout?version=A&mp1=3&mp2=2&mp3=1&mp4=2 HTTP/1.1[0m" 200 -
+2020-10-21T22:47:33.193851+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=3&mp2=2&mp3=1&mp4=2" host=murmuring-brook-73162.herokuapp.com request_id=013b47b7-dafd-4f53-b847-f3469d9297d0 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=5236 protocol=https
+2020-10-21T22:47:33.276178+00:00 app[web.1]: AB_TESTING: C 1603320453238 0 0 ljcblgtfo
+2020-10-21T22:47:33.276741+00:00 app[web.1]: 10.73.248.58 - - [21/Oct/2020 22:47:33] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:47:33.276832+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=8639d205-3454-43d7-90c9-caaa57ba3d87 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:39.648076+00:00 app[web.1]: 10.16.190.48 - - [21/Oct/2020 22:49:39] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:49:39.648360+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=5383a508-e48b-4c11-b26a-e215f36d0607 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-21T22:49:39.708562+00:00 app[web.1]: 10.16.190.48 - - [21/Oct/2020 22:49:39] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T22:49:39.710766+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=9d84613b-fe65-41f4-9fc0-be951b8d0178 fwd="74.66.216.64" dyno=web.1 connect=0ms service=13ms status=200 bytes=1117 protocol=https
+2020-10-21T22:49:39.778178+00:00 app[web.1]: 10.16.190.48 - - [21/Oct/2020 22:49:39] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T22:49:39.787679+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=3ecb5935-2799-4855-850f-604bc1677e21 fwd="74.66.216.64" dyno=web.1 connect=0ms service=14ms status=200 bytes=243856 protocol=https
+2020-10-21T22:49:39.803781+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:39] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:49:39.819554+00:00 app[web.1]: 10.111.188.18 - - [21/Oct/2020 22:49:39] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:49:39.823227+00:00 app[web.1]: 10.11.254.71 - - [21/Oct/2020 22:49:39] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:49:39.832368+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=b91d7f76-203d-4af0-a023-d56197312b4f fwd="74.66.216.64" dyno=web.1 connect=1ms service=38ms status=200 bytes=618300 protocol=https
+2020-10-21T22:49:39.834645+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=a7750720-0be2-4d97-9ebf-8b775ff8e777 fwd="74.66.216.64" dyno=web.1 connect=1ms service=29ms status=200 bytes=160216 protocol=https
+2020-10-21T22:49:39.836307+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=3741420e-4a91-4013-9cd0-cf83ff54bb00 fwd="74.66.216.64" dyno=web.1 connect=0ms service=43ms status=200 bytes=132444 protocol=https
+2020-10-21T22:49:39.942094+00:00 app[web.1]: AB_TESTING: A 1603320579915 0 0 aldnljwpa
+2020-10-21T22:49:39.944334+00:00 app[web.1]: 10.16.190.48 - - [21/Oct/2020 22:49:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:39.949549+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=438c5988-e8c4-4c91-8405-b404dede896b fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:41.206166+00:00 app[web.1]: AB_TESTING: A 1603320579915 1603320581187 mp1 aldnljwpa
+2020-10-21T22:49:41.207409+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:41] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:41.207829+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=b570b109-9e67-4865-93de-888f6a3bf231 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:41.390654+00:00 app[web.1]: AB_TESTING: A 1603320579915 1603320581361 mp1 aldnljwpa
+2020-10-21T22:49:41.391141+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:41] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:41.391220+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=b7fef549-a1d6-4329-b85c-20623d156d47 fwd="74.66.216.64" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:42.380670+00:00 app[web.1]: AB_TESTING: A 1603320579915 1603320582349 mp4 aldnljwpa
+2020-10-21T22:49:42.381771+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:42.382249+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=be48ae04-c2d1-4afd-be09-17b64d7ec43a fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:42.577586+00:00 app[web.1]: AB_TESTING: A 1603320579915 1603320582559 mp4 aldnljwpa
+2020-10-21T22:49:42.578503+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:42.578585+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=aa0b25bc-c411-48d6-95f8-88da7c62eb12 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:43.400677+00:00 app[web.1]: AB_TESTING: A 1603320579915 1603320583381 mp3 aldnljwpa
+2020-10-21T22:49:43.401644+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:43.401789+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=0212a39a-23e3-48f7-af42-5e0689f0252c fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:43.582425+00:00 app[web.1]: AB_TESTING: A 1603320579915 1603320583541 mp3 aldnljwpa
+2020-10-21T22:49:43.583219+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:43.583496+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=0389f605-8c50-4bcb-908b-53de97d208e4 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:44.655093+00:00 app[web.1]: AB_TESTING: A 1603320579915 1603320584641 mp2 aldnljwpa
+2020-10-21T22:49:44.655852+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:44.656175+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=6fadb753-0ced-4849-9d40-4a4d85d86462 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:49:45.906083+00:00 app[web.1]: AB_TESTING: A 1603320579915 1603320585887 mp1 aldnljwpa
+2020-10-21T22:49:45.906635+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:49:45] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:49:45.906950+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cd00415b-20de-4ecd-a95c-cf71c91b2616 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:37.562928+00:00 app[web.1]: 10.63.103.37 - - [21/Oct/2020 22:53:37] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:53:37.565134+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=23208dd0-e36c-425f-8d6e-63a08d6d8afc fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=8883 protocol=https
+2020-10-21T22:53:37.645289+00:00 app[web.1]: 10.63.103.37 - - [21/Oct/2020 22:53:37] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T22:53:37.646953+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=3b5fae77-4803-4474-b670-546db3ca8214 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=1117 protocol=https
+2020-10-21T22:53:37.728057+00:00 app[web.1]: 10.63.103.37 - - [21/Oct/2020 22:53:37] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T22:53:37.730632+00:00 app[web.1]: 10.9.250.56 - - [21/Oct/2020 22:53:37] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:53:37.736193+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:37] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:53:37.748818+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=ae03f57e-acd5-49a6-8721-e916e619a70c fwd="74.66.216.64" dyno=web.1 connect=0ms service=25ms status=200 bytes=243856 protocol=https
+2020-10-21T22:53:37.750276+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=a6c1ebcc-e597-445c-a13f-81e5df1ef4bd fwd="74.66.216.64" dyno=web.1 connect=1ms service=26ms status=200 bytes=132444 protocol=https
+2020-10-21T22:53:37.764069+00:00 app[web.1]: 10.37.232.57 - - [21/Oct/2020 22:53:37] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:53:37.778178+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=949ef27d-b158-4138-ab1f-d17352bb197d fwd="74.66.216.64" dyno=web.1 connect=0ms service=27ms status=200 bytes=160216 protocol=https
+2020-10-21T22:53:37.781852+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=6d8ddeac-78c6-4af0-8b03-30bf60aeed8e fwd="74.66.216.64" dyno=web.1 connect=1ms service=57ms status=200 bytes=618300 protocol=https
+2020-10-21T22:53:37.891513+00:00 app[web.1]: AB_TESTING: A 1603320817848 0 0 ytpqbq
+2020-10-21T22:53:37.892496+00:00 app[web.1]: 10.63.41.14 - - [21/Oct/2020 22:53:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:37.894692+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=84b0c4da-dd4c-451b-8239-d2b705b69f51 fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:39.177711+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320819161 mp1 ytpqbq
+2020-10-21T22:53:39.178708+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:39.180712+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=42a67ed1-1d37-473f-87b2-2dc635cc33dd fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:39.622027+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320819602 mp1 ytpqbq
+2020-10-21T22:53:39.622856+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:39.625860+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=f3fdc296-08db-45b5-b3be-42a81ecd05b3 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:40.086952+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320820070 mp1 ytpqbq
+2020-10-21T22:53:40.087808+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:40.091341+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1859dacf-88b2-4b9d-ac58-a0dedcdb174e fwd="74.66.216.64" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:41.152437+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320821116 mp4 ytpqbq
+2020-10-21T22:53:41.153341+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:41] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:41.155200+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=9a277fb9-8eec-4be6-944b-d7f169d1216d fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:42.274436+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320822252 mp3 ytpqbq
+2020-10-21T22:53:42.276010+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:42.277726+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cd468f89-018d-4109-9ce9-9de2697391cd fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:42.542274+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320822510 mp3 ytpqbq
+2020-10-21T22:53:42.543020+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:42.544565+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=a0e5bdc2-1fdf-4e0e-8a90-2022c64d1a2b fwd="74.66.216.64" dyno=web.1 connect=2ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:43.452022+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320823422 mp2 ytpqbq
+2020-10-21T22:53:43.452902+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:43.461527+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2d9174cb-8115-421e-8f77-8f06c93b191b fwd="74.66.216.64" dyno=web.1 connect=1ms service=11ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:43.600878+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320823582 mp2 ytpqbq
+2020-10-21T22:53:43.601900+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:43.604943+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=4b910452-9cc4-4d1c-b8b8-44d2ae272588 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:53:44.606016+00:00 app[web.1]: AB_TESTING: A 1603320817848 1603320824586 mp1 ytpqbq
+2020-10-21T22:53:44.608009+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:53:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:53:44.609608+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=6c17177a-a176-4d98-9642-2c0ef68e4d3f fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:54:33.873238+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:54:33] "[37mGET /checkout?version=A&mp1=4&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:54:33.875860+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=4&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=5a85ce79-3cea-4d05-820b-2a344d4e1687 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=5236 protocol=https
+2020-10-21T22:54:33.941734+00:00 app[web.1]: AB_TESTING: C 1603320873921 0 0 ytpqbq
+2020-10-21T22:54:33.942660+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:54:33] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:54:33.944384+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cabaae72-4d6e-41e0-adfe-c1456814489b fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:54:36.093736+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:54:36] "[37mGET /?version=A&mp1=4&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:54:36.095833+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=4&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=2e057fca-861c-4a81-ab29-0f1c5d68b580 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-21T22:54:36.161436+00:00 app[web.1]: AB_TESTING: A 1603320876141 0 0 ytpqbq
+2020-10-21T22:54:36.162578+00:00 app[web.1]: 10.30.108.123 - - [21/Oct/2020 22:54:36] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:54:36.173766+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2d02c5ff-42d9-4bf2-954f-5632a79fe4fa fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:31.161626+00:00 app[web.1]: 10.71.137.172 - - [21/Oct/2020 22:56:31] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:56:31.163634+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=806e4f2f-2759-444f-a143-1216c4e85c91 fwd="74.66.216.64" dyno=web.1 connect=1ms service=10ms status=200 bytes=8883 protocol=https
+2020-10-21T22:56:31.237632+00:00 app[web.1]: 10.71.137.172 - - [21/Oct/2020 22:56:31] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T22:56:31.242592+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=1dbf9da7-a3c6-48c2-b4c7-1fc6e8bdea48 fwd="74.66.216.64" dyno=web.1 connect=2ms service=9ms status=200 bytes=1117 protocol=https
+2020-10-21T22:56:31.337360+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:31] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:56:31.348246+00:00 app[web.1]: 10.41.169.187 - - [21/Oct/2020 22:56:31] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:56:31.351703+00:00 app[web.1]: 10.30.127.22 - - [21/Oct/2020 22:56:31] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:56:31.365697+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=115bdd72-18d4-4335-95d3-ea6c7c24e2ee fwd="74.66.216.64" dyno=web.1 connect=0ms service=31ms status=200 bytes=160216 protocol=https
+2020-10-21T22:56:31.368690+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=34383f87-afd6-44e5-a4ee-28dff25b0c7c fwd="74.66.216.64" dyno=web.1 connect=0ms service=28ms status=200 bytes=132444 protocol=https
+2020-10-21T22:56:31.378840+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=e5e2c92d-5466-40d5-b0cc-6cec448210fd fwd="74.66.216.64" dyno=web.1 connect=0ms service=45ms status=200 bytes=618300 protocol=https
+2020-10-21T22:56:31.414270+00:00 app[web.1]: 10.71.137.172 - - [21/Oct/2020 22:56:31] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T22:56:31.428598+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=7faf8ada-297c-4aa6-8a10-13751cdbc405 fwd="74.66.216.64" dyno=web.1 connect=1ms service=17ms status=200 bytes=243856 protocol=https
+2020-10-21T22:56:31.441975+00:00 app[web.1]: AB_TESTING: A 1603320991411 0 0 mzzzriow
+2020-10-21T22:56:31.443952+00:00 app[web.1]: 10.35.189.198 - - [21/Oct/2020 22:56:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:31.445597+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=aaef4f81-d8bc-41d2-bb2f-1520f92733d8 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:32.463558+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320992436 mp1 mzzzriow
+2020-10-21T22:56:32.466954+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:32] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:32.467807+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=0bd6e75c-4a0d-4d04-b7d4-422e586594b7 fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:32.580805+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320992557 mp1 mzzzriow
+2020-10-21T22:56:32.581581+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:32] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:32.588225+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1f891830-9201-49b5-bc2a-b4a04e4ffc7b fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:33.620699+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320993575 mp2 mzzzriow
+2020-10-21T22:56:33.621568+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:33] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:33.622438+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cdd1d909-a24e-4047-8a1e-d630b5aad2be fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:34.087625+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320994055 mp2 mzzzriow
+2020-10-21T22:56:34.088534+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:34] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:34.089450+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=e1b59e7b-4e78-44b8-8f2a-8b8ee27a8cb8 fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:35.004185+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320994983 mp3 mzzzriow
+2020-10-21T22:56:35.004970+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:35] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:35.006110+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=df898926-3c5c-4b85-829e-277fdb8ef516 fwd="74.66.216.64" dyno=web.1 connect=0ms service=6ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:35.159034+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320995111 mp3 mzzzriow
+2020-10-21T22:56:35.159954+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:35] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:35.160844+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=12b4802a-de4f-4965-83b8-841d4e85e7b2 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:36.205999+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320996157 mp4 mzzzriow
+2020-10-21T22:56:36.206745+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:36] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:36.208879+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=678ca88d-e24f-4133-b2d9-394b73bcfa76 fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:36.360892+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320996335 mp4 mzzzriow
+2020-10-21T22:56:36.361577+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:36] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:36.362185+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ea8e6d41-1bcc-4acf-8d29-bf92cc833ef6 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:36.520455+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320996502 mp4 mzzzriow
+2020-10-21T22:56:36.520966+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:36] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:36.521544+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=19888862-a479-42da-9f3c-59b1ad0ed0a2 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:37.951179+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320997927 mp1 mzzzriow
+2020-10-21T22:56:37.955151+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:37.955854+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=c9c84371-2a34-44e1-b9b2-45c596145f25 fwd="74.66.216.64" dyno=web.1 connect=0ms service=9ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:39.645490+00:00 app[web.1]: AB_TESTING: A 1603320991411 1603320999627 mp4 mzzzriow
+2020-10-21T22:56:39.646515+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:39.647422+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=f6d7f59e-4447-4073-bfee-86283c148146 fwd="74.66.216.64" dyno=web.1 connect=2ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:56:56.380844+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:56] "[37mGET /checkout?version=A&mp1=3&mp2=2&mp3=2&mp4=4 HTTP/1.1[0m" 200 -
+2020-10-21T22:56:56.395357+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=3&mp2=2&mp3=2&mp4=4" host=murmuring-brook-73162.herokuapp.com request_id=aef09208-e51f-48bf-b0e2-a0564b377a78 fwd="74.66.216.64" dyno=web.1 connect=1ms service=20ms status=200 bytes=5236 protocol=https
+2020-10-21T22:56:56.467001+00:00 app[web.1]: AB_TESTING: C 1603321016448 0 0 mzzzriow
+2020-10-21T22:56:56.467750+00:00 app[web.1]: 10.35.222.75 - - [21/Oct/2020 22:56:56] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:56:56.477441+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=c0b37463-7f55-44b3-a959-db3ecc02be6e fwd="74.66.216.64" dyno=web.1 connect=0ms service=12ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:47.197047+00:00 app[web.1]: 10.61.245.89 - - [21/Oct/2020 22:58:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T22:58:47.204428+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=b63df552-bf21-4a13-bf44-3d8270b98367 fwd="74.66.216.64" dyno=web.1 connect=1ms service=9ms status=200 bytes=8883 protocol=https
+2020-10-21T22:58:47.269223+00:00 app[web.1]: 10.61.245.89 - - [21/Oct/2020 22:58:47] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T22:58:47.275612+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=a982c3f9-e47a-4889-98e0-0267c78e0c61 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=1117 protocol=https
+2020-10-21T22:58:47.340210+00:00 app[web.1]: 10.61.245.89 - - [21/Oct/2020 22:58:47] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T22:58:47.356783+00:00 app[web.1]: 10.13.251.139 - - [21/Oct/2020 22:58:47] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:58:47.360049+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:47] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:58:47.367449+00:00 app[web.1]: 10.150.193.19 - - [21/Oct/2020 22:58:47] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T22:58:47.371745+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=2441c318-4771-4eb3-8352-6a744be7eb12 fwd="74.66.216.64" dyno=web.1 connect=1ms service=38ms status=200 bytes=243856 protocol=https
+2020-10-21T22:58:47.383305+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=a65db874-e827-487f-a9b7-134f8ef39fae fwd="74.66.216.64" dyno=web.1 connect=1ms service=37ms status=200 bytes=132444 protocol=https
+2020-10-21T22:58:47.383478+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=662e3d42-9b6a-437a-ad86-e2217a44407d fwd="74.66.216.64" dyno=web.1 connect=1ms service=30ms status=200 bytes=160216 protocol=https
+2020-10-21T22:58:47.394583+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=d25b43b0-2f2f-422a-9e9e-87ef99cf1974 fwd="74.66.216.64" dyno=web.1 connect=1ms service=50ms status=200 bytes=618300 protocol=https
+2020-10-21T22:58:47.507365+00:00 app[web.1]: AB_TESTING: A 1603321127455 0 0 ldemi
+2020-10-21T22:58:47.508159+00:00 app[web.1]: 10.13.211.10 - - [21/Oct/2020 22:58:47] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:47.508973+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ba6110c3-9e42-405e-865b-46adee9ac741 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:49.597490+00:00 app[web.1]: AB_TESTING: A 1603321127455 1603321129578 mp1 ldemi
+2020-10-21T22:58:49.598296+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:49] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:49.600112+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=50a36ab0-e086-41f3-b00b-db6beb58e283 fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:50.810335+00:00 app[web.1]: AB_TESTING: A 1603321127455 1603321130791 mp3 ldemi
+2020-10-21T22:58:50.811213+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2d83025a-6950-4329-a800-59e2840d4e62 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:50.811228+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:50] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:50.996231+00:00 app[web.1]: AB_TESTING: A 1603321127455 1603321130978 mp3 ldemi
+2020-10-21T22:58:50.997190+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=83ec4823-eb7b-41ac-a47c-f955dad2c4fc fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:50.997252+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:50] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:51.658209+00:00 app[web.1]: AB_TESTING: A 1603321127455 1603321131643 mp4 ldemi
+2020-10-21T22:58:51.659123+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:51] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:51.659879+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=5dcd1b60-7132-4045-bea6-13b0802caceb fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:53.858361+00:00 app[web.1]: AB_TESTING: A 1603321127455 1603321133833 mp2 ldemi
+2020-10-21T22:58:53.860008+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:53] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:53.861570+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=d6538c65-6d3e-4e26-8a04-1b32e1091596 fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:54.518146+00:00 app[web.1]: AB_TESTING: A 1603321127455 1603321134480 mp1 ldemi
+2020-10-21T22:58:54.521013+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:54] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:54.521489+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=07c4cd82-b055-48d0-a01d-a4df8cb753a9 fwd="74.66.216.64" dyno=web.1 connect=0ms service=12ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:57.958461+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:57] "[37mGET /checkout?version=A&mp1=2&mp2=1&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:58:57.958515+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=2&mp2=1&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=7b1b1d3b-cd17-4025-8c1f-541d876873bb fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=5236 protocol=https
+2020-10-21T22:58:58.024004+00:00 app[web.1]: AB_TESTING: C 1603321138005 0 0 ldemi
+2020-10-21T22:58:58.024877+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:58.031790+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=5124e323-2150-47f2-9fe0-792eff3dc29c fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:58:59.320795+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:59] "[37mGET /?version=A&mp1=2&mp2=1&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:58:59.323914+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=2&mp2=1&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=db9533b4-270a-4149-80b5-c3bb6f5ef0a1 fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=8883 protocol=https
+2020-10-21T22:58:59.389174+00:00 app[web.1]: AB_TESTING: A 1603321139371 0 0 ldemi
+2020-10-21T22:58:59.389938+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:58:59] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:58:59.389943+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ab49527a-4505-47d6-9013-198279f4ad60 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:59:02.515100+00:00 app[web.1]: AB_TESTING: A 1603321139371 1603321142496 mp3 ldemi
+2020-10-21T22:59:02.515895+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:59:02] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:59:02.517419+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=3ff9eaa5-9639-433c-8179-c67796a287f1 fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T22:59:03.853796+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:59:03] "[37mGET /checkout?version=A&mp1=2&mp2=1&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:59:03.856336+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=2&mp2=1&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=372a1931-e748-4c4d-bdeb-b576962f8cfb fwd="74.66.216.64" dyno=web.1 connect=0ms service=9ms status=200 bytes=5236 protocol=https
+2020-10-21T22:59:03.919329+00:00 app[web.1]: AB_TESTING: C 1603321143896 0 0 ldemi
+2020-10-21T22:59:03.920208+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:59:03] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:59:03.924553+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=e33c0834-0674-48e2-b624-5762f9d89bd0 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T22:59:06.665061+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:59:06] "[37mGET /?version=A&mp1=2&mp2=1&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:59:06.665074+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=2&mp2=1&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=5cf6641c-b279-4596-aa49-4ead44f485ff fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=8883 protocol=https
+2020-10-21T22:59:06.725436+00:00 app[web.1]: AB_TESTING: A 1603321146710 0 0 ldemi
+2020-10-21T22:59:06.726415+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:59:06] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:59:06.730672+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=5615b8c8-9dd8-4487-87a7-f1d50b88ea88 fwd="74.66.216.64" dyno=web.1 connect=1ms service=8ms status=200 bytes=155 protocol=https
+2020-10-21T22:59:07.440119+00:00 app[web.1]: AB_TESTING: A 1603321146710 1603321147418 mp1 ldemi
+2020-10-21T22:59:07.440883+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=030c2362-444f-4a1b-8bad-3c45d985faeb fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:59:07.440969+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:59:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T22:59:09.628983+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=3&mp2=1&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=cc9b637a-c149-4ae4-bbd4-8ffc479313d4 fwd="74.66.216.64" dyno=web.1 connect=1ms service=6ms status=200 bytes=5236 protocol=https
+2020-10-21T22:59:09.628997+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:59:09] "[37mGET /checkout?version=A&mp1=3&mp2=1&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T22:59:09.700346+00:00 app[web.1]: AB_TESTING: C 1603321149670 0 0 ldemi
+2020-10-21T22:59:09.700940+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=6d24b15a-8ce8-4688-a30a-7bd337e9e4ab fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T22:59:09.701144+00:00 app[web.1]: 10.11.226.104 - - [21/Oct/2020 22:59:09] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:07.484375+00:00 app[web.1]: 10.35.184.226 - - [21/Oct/2020 23:09:07] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T23:09:07.486131+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=721fd4a4-66cd-4bd5-9e27-7676484fa209 fwd="74.66.216.64" dyno=web.1 connect=1ms service=11ms status=200 bytes=9188 protocol=https
+2020-10-21T23:09:07.574180+00:00 app[web.1]: 10.35.184.226 - - [21/Oct/2020 23:09:07] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T23:09:07.575936+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=ddad9b2b-e591-40b7-a3e6-3ffa0b38c7ed fwd="74.66.216.64" dyno=web.1 connect=0ms service=22ms status=200 bytes=1117 protocol=https
+2020-10-21T23:09:07.614906+00:00 app[web.1]: 10.35.184.226 - - [21/Oct/2020 23:09:07] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T23:09:07.655790+00:00 app[web.1]: 10.41.153.135 - - [21/Oct/2020 23:09:07] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:09:07.658918+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=eb09051a-13c9-4c3f-b599-e1e387603807 fwd="74.66.216.64" dyno=web.1 connect=0ms service=55ms status=200 bytes=243856 protocol=https
+2020-10-21T23:09:07.668830+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:07] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:09:07.674426+00:00 app[web.1]: 10.155.219.74 - - [21/Oct/2020 23:09:07] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:09:07.675385+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=629b00dc-16ed-459f-b69e-dea47d307008 fwd="74.66.216.64" dyno=web.1 connect=1ms service=57ms status=200 bytes=132444 protocol=https
+2020-10-21T23:09:07.689792+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=3bbc0451-b0d4-49cc-8ebf-7545aeb6458a fwd="74.66.216.64" dyno=web.1 connect=1ms service=64ms status=200 bytes=160216 protocol=https
+2020-10-21T23:09:07.696327+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=4599dba7-7a54-4816-89f3-465ed9bd79f9 fwd="74.66.216.64" dyno=web.1 connect=1ms service=81ms status=200 bytes=618300 protocol=https
+2020-10-21T23:09:07.749688+00:00 app[web.1]: AB_TESTING: B 1603321747718 0 0 jcydpalj
+2020-10-21T23:09:07.758804+00:00 app[web.1]: 10.156.16.229 - - [21/Oct/2020 23:09:07] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:07.761592+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=236925c2-4fe6-4f12-8a38-f3d107c0da17 fwd="74.66.216.64" dyno=web.1 connect=1ms service=16ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:24.025694+00:00 app[web.1]: AB_TESTING: B 1603321747718 1603321763997 mp1 jcydpalj
+2020-10-21T23:09:24.027655+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=56cd9c37-b15d-4f5f-b7f6-d8c81f6aaea0 fwd="74.66.216.64" dyno=web.1 connect=1ms service=13ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:24.029048+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:24.835785+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=a4da51de-47e0-4445-a391-df110915a222 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:24.836097+00:00 app[web.1]: AB_TESTING: B 1603321747718 1603321764139 mp1 jcydpalj
+2020-10-21T23:09:24.837524+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:25.426552+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=52372f33-6d9c-470c-8262-43237fed049e fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:25.427315+00:00 app[web.1]: AB_TESTING: B 1603321747718 1603321765408 mp2 jcydpalj
+2020-10-21T23:09:25.428184+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:25] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:25.612328+00:00 app[web.1]: AB_TESTING: B 1603321747718 1603321765593 mp2 jcydpalj
+2020-10-21T23:09:25.617941+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=9d6095e3-d0c1-4ccd-aea6-84ad105e0164 fwd="74.66.216.64" dyno=web.1 connect=1ms service=12ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:25.619524+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:25] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:26.359983+00:00 app[web.1]: AB_TESTING: B 1603321747718 1603321766337 mp3 jcydpalj
+2020-10-21T23:09:26.366980+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:26.368617+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cb7d0753-3d62-49d4-99f9-5978167c657b fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:26.486133+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=f6ff4707-cac0-4b87-a6c1-94c234a4116b fwd="74.66.216.64" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:26.486745+00:00 app[web.1]: AB_TESTING: B 1603321747718 1603321766465 mp3 jcydpalj
+2020-10-21T23:09:26.487596+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:27.575194+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=3fabbf14-afc8-4079-ae26-3f962f8d921b fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:27.575596+00:00 app[web.1]: AB_TESTING: B 1603321747718 1603321767557 mp4 jcydpalj
+2020-10-21T23:09:27.576834+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:30.404853+00:00 app[web.1]: AB_TESTING: B 1603321747718 1603321770385 mp1 jcydpalj
+2020-10-21T23:09:30.406011+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:30.409650+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=726b5694-7de5-486d-9da8-0b73d89e111e fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:31.755143+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=3&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=defe51b0-aaf7-4a58-9e31-47773f031d6c fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=5236 protocol=https
+2020-10-21T23:09:31.756619+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:31] "[37mGET /checkout?version=B&mp1=3&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:09:31.828103+00:00 app[web.1]: AB_TESTING: C 1603321771807 0 0 jcydpalj
+2020-10-21T23:09:31.829888+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=f68efec5-99af-45b8-a22f-dcc24c334249 fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:31.830846+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:33.237093+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=3&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=2121e91d-467f-484d-a522-0a8ba8739e7e fwd="74.66.216.64" dyno=web.1 connect=2ms service=5ms status=200 bytes=9188 protocol=https
+2020-10-21T23:09:33.238443+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:33] "[37mGET /?version=B&mp1=3&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:09:33.306473+00:00 app[web.1]: AB_TESTING: B 1603321773292 0 0 jcydpalj
+2020-10-21T23:09:33.307376+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:33] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:33.310844+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=8454ee3a-8afb-4a6a-a8a7-dad4b872b1c4 fwd="74.66.216.64" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:33.991134+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=e09d245d-f55e-4ab3-8dfa-763f435e56b8 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:33.991819+00:00 app[web.1]: AB_TESTING: B 1603321773292 1603321773978 mp1 jcydpalj
+2020-10-21T23:09:33.992634+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:33] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:09:35.443856+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:35] "[37mGET /checkout?version=B&mp1=4&mp2=2&mp3=2&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:09:35.444458+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=4&mp2=2&mp3=2&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=da6dcf46-4ae6-47d3-a44a-942d498defa3 fwd="74.66.216.64" dyno=web.1 connect=1ms service=11ms status=200 bytes=5236 protocol=https
+2020-10-21T23:09:35.529904+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=aba1018d-7272-40cd-b617-3e29539f6e5b fwd="74.66.216.64" dyno=web.1 connect=1ms service=26ms status=200 bytes=155 protocol=https
+2020-10-21T23:09:35.530352+00:00 app[web.1]: AB_TESTING: C 1603321775490 0 0 jcydpalj
+2020-10-21T23:09:35.531586+00:00 app[web.1]: 10.7.242.198 - - [21/Oct/2020 23:09:35] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:37.180832+00:00 app[web.1]: 10.111.171.190 - - [21/Oct/2020 23:16:37] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T23:16:37.182488+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=903c1117-d4eb-4843-bf81-a2c1fef1cba8 fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=9188 protocol=https
+2020-10-21T23:16:37.275784+00:00 app[web.1]: 10.111.171.190 - - [21/Oct/2020 23:16:37] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T23:16:37.277543+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=911bccb5-b315-4f6e-a549-57fbd4601205 fwd="74.66.216.64" dyno=web.1 connect=1ms service=8ms status=200 bytes=1117 protocol=https
+2020-10-21T23:16:37.331385+00:00 app[web.1]: 10.111.171.190 - - [21/Oct/2020 23:16:37] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T23:16:37.343014+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=0e81b40e-c72d-46a3-bc3f-4ef1c5fd6ed0 fwd="74.66.216.64" dyno=web.1 connect=1ms service=16ms status=200 bytes=243856 protocol=https
+2020-10-21T23:16:37.362623+00:00 app[web.1]: 10.69.85.146 - - [21/Oct/2020 23:16:37] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:16:37.369953+00:00 app[web.1]: 10.33.189.18 - - [21/Oct/2020 23:16:37] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:16:37.371729+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=4c01d1d8-6ad7-41e8-b4c2-eb2af719dd70 fwd="74.66.216.64" dyno=web.1 connect=1ms service=11ms status=200 bytes=132444 protocol=https
+2020-10-21T23:16:37.375979+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=0c318b16-9f70-491b-8aa3-1c8a71815c67 fwd="74.66.216.64" dyno=web.1 connect=0ms service=9ms status=200 bytes=160216 protocol=https
+2020-10-21T23:16:37.383729+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:37] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:16:37.419180+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=3914551f-1daf-4ab1-bab2-a5bb15e32080 fwd="74.66.216.64" dyno=web.1 connect=2ms service=40ms status=200 bytes=618300 protocol=https
+2020-10-21T23:16:37.513666+00:00 app[web.1]: AB_TESTING: B 1603322197481 0 0 xfsyzqolm
+2020-10-21T23:16:37.514720+00:00 app[web.1]: 10.111.171.190 - - [21/Oct/2020 23:16:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:37.520164+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=64351d01-dc9c-49e9-9f1d-5d195ff1610d fwd="74.66.216.64" dyno=web.1 connect=3ms service=19ms status=200 bytes=155 protocol=https
+2020-10-21T23:16:38.437165+00:00 app[web.1]: AB_TESTING: B 1603322197481 1603322198411 mp1 xfsyzqolm
+2020-10-21T23:16:38.438823+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:38.444909+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=0255b3ad-2719-4547-a251-d58519ebafba fwd="74.66.216.64" dyno=web.1 connect=1ms service=12ms status=200 bytes=155 protocol=https
+2020-10-21T23:16:39.572729+00:00 app[web.1]: AB_TESTING: B 1603322197481 1603322199554 mp2 xfsyzqolm
+2020-10-21T23:16:39.573332+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:39.574320+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=bad745be-8dd6-43be-950f-8d3130367739 fwd="74.66.216.64" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T23:16:39.714153+00:00 app[web.1]: AB_TESTING: B 1603322197481 1603322199694 mp2 xfsyzqolm
+2020-10-21T23:16:39.717608+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:39.718745+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2d648388-876c-4023-a938-d754e3caabeb fwd="74.66.216.64" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T23:16:40.395072+00:00 app[web.1]: AB_TESTING: B 1603322197481 1603322200378 mp3 xfsyzqolm
+2020-10-21T23:16:40.395799+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:40.399817+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1bf9c43d-b932-4519-ac3e-1f7fd30491f8 fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T23:16:41.546287+00:00 app[web.1]: AB_TESTING: B 1603322197481 1603322201530 mp4 xfsyzqolm
+2020-10-21T23:16:41.547167+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:41] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:41.548157+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=25165dd6-f245-47b3-b6a2-dadbefd33188 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T23:16:43.540115+00:00 app[web.1]: AB_TESTING: B 1603322197481 1603322203512 mp2 xfsyzqolm
+2020-10-21T23:16:43.542216+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:43.543202+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=d98f1c5a-a4bd-48ff-9828-785342930ae3 fwd="74.66.216.64" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-21T23:16:43.678711+00:00 app[web.1]: AB_TESTING: B 1603322197481 1603322203656 mp2 xfsyzqolm
+2020-10-21T23:16:43.678713+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:43.679286+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=d9b53723-c54b-45c5-b96b-49a9cefdd669 fwd="74.66.216.64" dyno=web.1 connect=3ms service=8ms status=200 bytes=155 protocol=https
+2020-10-21T23:16:46.756162+00:00 app[web.1]: AB_TESTING: B 1603322197481 1603322206739 mp1 xfsyzqolm
+2020-10-21T23:16:46.756857+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:16:46] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:16:46.760232+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=322d78eb-701a-4f4e-837b-a87c9744d392 fwd="74.66.216.64" dyno=web.1 connect=1ms service=8ms status=200 bytes=155 protocol=https
+2020-10-21T23:17:37.298300+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:17:37] "[37mGET /checkout?version=B&mp1=2&mp2=4&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:17:37.299181+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=2&mp2=4&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=df7d61fd-3c26-4166-93dd-79ec52be4a1a fwd="74.66.216.64" dyno=web.1 connect=63ms service=33ms status=200 bytes=5236 protocol=https
+2020-10-21T23:17:37.532855+00:00 app[web.1]: AB_TESTING: C 1603322257357 0 0 xfsyzqolm
+2020-10-21T23:17:37.533837+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:17:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:17:37.534710+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2cfbe25c-8c25-4807-b4e4-b10bd61cfef0 fwd="74.66.216.64" dyno=web.1 connect=74ms service=87ms status=200 bytes=155 protocol=https
+2020-10-21T23:17:38.557063+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:17:38] "[37mGET /?version=B&mp1=2&mp2=4&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:17:38.558057+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=2&mp2=4&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=76025d81-e875-45f7-9b48-95c573d2f5e0 fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=9188 protocol=https
+2020-10-21T23:17:38.632087+00:00 app[web.1]: AB_TESTING: B 1603322258603 0 0 xfsyzqolm
+2020-10-21T23:17:38.633030+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:17:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:17:38.634253+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=07f5f515-f2cc-4db9-af0b-8af4c3fe31cf fwd="74.66.216.64" dyno=web.1 connect=1ms service=6ms status=200 bytes=155 protocol=https
+2020-10-21T23:17:39.310122+00:00 app[web.1]: AB_TESTING: B 1603322258603 1603322259291 mp1 xfsyzqolm
+2020-10-21T23:17:39.311156+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:17:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:17:39.312306+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=278a8010-3aad-4ef6-bf16-130755e825dc fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T23:17:40.562619+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:17:40] "[37mGET /checkout?version=B&mp1=3&mp2=4&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:17:40.563731+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=3&mp2=4&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=7f041997-9511-4b61-bbd1-4909b4ca35c3 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=5236 protocol=https
+2020-10-21T23:17:40.620335+00:00 app[web.1]: AB_TESTING: C 1603322260603 0 0 xfsyzqolm
+2020-10-21T23:17:40.621030+00:00 app[web.1]: 10.51.205.51 - - [21/Oct/2020 23:17:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:17:40.621681+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ff5972a4-2c3a-429d-bfcd-8c8ad880c07b fwd="74.66.216.64" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:35.825430+00:00 app[web.1]: 10.43.188.220 - - [21/Oct/2020 23:43:35] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-21T23:43:35.826676+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=4c41060b-79b9-4e18-b2f5-4db201c4b4e1 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-21T23:43:35.899928+00:00 app[web.1]: 10.43.188.220 - - [21/Oct/2020 23:43:35] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-21T23:43:35.903171+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=05f4bd19-b65d-4c5b-b93e-fbb0a3452eba fwd="74.66.216.64" dyno=web.1 connect=1ms service=11ms status=200 bytes=1117 protocol=https
+2020-10-21T23:43:35.990867+00:00 app[web.1]: 10.43.188.220 - - [21/Oct/2020 23:43:35] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-21T23:43:36.004619+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=df502699-6deb-4f14-bc54-750f15023b6e fwd="74.66.216.64" dyno=web.1 connect=1ms service=18ms status=200 bytes=243856 protocol=https
+2020-10-21T23:43:36.025815+00:00 app[web.1]: 10.47.227.158 - - [21/Oct/2020 23:43:36] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:43:36.029677+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:36] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:43:36.034681+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=6633b8ac-b27a-471c-b975-c542a7c2a20a fwd="74.66.216.64" dyno=web.1 connect=0ms service=11ms status=200 bytes=160216 protocol=https
+2020-10-21T23:43:36.037970+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=e4e2afc1-d559-4359-b47a-b74513f7673f fwd="74.66.216.64" dyno=web.1 connect=0ms service=15ms status=200 bytes=132444 protocol=https
+2020-10-21T23:43:36.038719+00:00 app[web.1]: 10.45.182.145 - - [21/Oct/2020 23:43:36] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-21T23:43:36.057528+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=1b6c46f1-10ab-4cb1-98b6-453ed95354b0 fwd="74.66.216.64" dyno=web.1 connect=0ms service=35ms status=200 bytes=618300 protocol=https
+2020-10-21T23:43:36.439178+00:00 app[web.1]: AB_TESTING: A 1603323816399 0 0 acesrntuvk
+2020-10-21T23:43:36.439955+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:36] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:36.442189+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=3b817a93-12bc-4635-a492-685cb224bb3a fwd="74.66.216.64" dyno=web.1 connect=1ms service=12ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:37.550589+00:00 app[web.1]: AB_TESTING: A 1603323816399 1603323817524 mp1 acesrntuvk
+2020-10-21T23:43:37.551254+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:37.552958+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=d496f838-7954-4caa-9c14-be7ddc164695 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:37.707447+00:00 app[web.1]: AB_TESTING: A 1603323816399 1603323817675 mp1 acesrntuvk
+2020-10-21T23:43:37.714817+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:37.717072+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=fab47859-0755-4501-8a67-97add38f5e66 fwd="74.66.216.64" dyno=web.1 connect=0ms service=16ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:38.496639+00:00 app[web.1]: AB_TESTING: A 1603323816399 1603323818475 mp2 acesrntuvk
+2020-10-21T23:43:38.498690+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:38.500671+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=593d5d14-1454-4ac4-b482-c9e62456d4ff fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:38.650724+00:00 app[web.1]: AB_TESTING: A 1603323816399 1603323818621 mp2 acesrntuvk
+2020-10-21T23:43:38.651498+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:38.653183+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=503d5323-fb54-41fa-bdaf-68e1f12011ac fwd="74.66.216.64" dyno=web.1 connect=6ms service=4ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:38.784771+00:00 app[web.1]: AB_TESTING: A 1603323816399 1603323818759 mp2 acesrntuvk
+2020-10-21T23:43:38.790645+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:38.791991+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=20726a0c-beee-42b2-8eae-d62582e05d7f fwd="74.66.216.64" dyno=web.1 connect=1ms service=12ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:38.918674+00:00 app[web.1]: AB_TESTING: A 1603323816399 1603323818895 mp2 acesrntuvk
+2020-10-21T23:43:38.919530+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:38.921461+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=b88c419e-a3ba-4413-b23a-cdee54056233 fwd="74.66.216.64" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:40.245824+00:00 app[web.1]: AB_TESTING: A 1603323816399 1603323820209 mp4 acesrntuvk
+2020-10-21T23:43:40.248265+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:40.250178+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=d2d1cc65-f89f-4972-9829-64c836ef0ad0 fwd="74.66.216.64" dyno=web.1 connect=0ms service=14ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:40.944538+00:00 app[web.1]: AB_TESTING: A 1603323816399 1603323820921 mp3 acesrntuvk
+2020-10-21T23:43:40.947243+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:40.949612+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2456d8cc-78be-4011-9e4a-436cd3a84b70 fwd="74.66.216.64" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:43.019816+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:43] "[37mGET /checkout?version=A&mp1=2&mp2=4&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:43:43.021862+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=2&mp2=4&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=b8c188a1-a51c-4d74-b51d-b51297208221 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=5236 protocol=https
+2020-10-21T23:43:43.097505+00:00 app[web.1]: AB_TESTING: C 1603323823071 0 0 acesrntuvk
+2020-10-21T23:43:43.099244+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:43.102957+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=b2815602-2e5b-4c1c-adb9-6f0a26789eb8 fwd="74.66.216.64" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:44.291741+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:44] "[37mGET /?version=A&mp1=2&mp2=4&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:43:44.296147+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=2&mp2=4&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=0188b7ea-28b2-4950-833f-6ba66a94b176 fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=8883 protocol=https
+2020-10-21T23:43:44.362653+00:00 app[web.1]: AB_TESTING: A 1603323824342 0 0 acesrntuvk
+2020-10-21T23:43:44.363706+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:44] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:44.366083+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=89671c11-8ab2-4e16-a679-5668c60a3372 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:45.123427+00:00 app[web.1]: AB_TESTING: A 1603323824342 1603323825103 mp1 acesrntuvk
+2020-10-21T23:43:45.124500+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:45] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:45.129728+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=8e6dfa0b-6b81-48e8-bbc1-fda1fba157ec fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=155 protocol=https
+2020-10-21T23:43:46.660162+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:46] "[37mGET /checkout?version=A&mp1=3&mp2=4&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-21T23:43:46.661951+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=3&mp2=4&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=cde9ed81-9bc4-42b2-8c5a-e6832ef8c58d fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=5236 protocol=https
+2020-10-21T23:43:46.719034+00:00 app[web.1]: AB_TESTING: C 1603323826700 0 0 acesrntuvk
+2020-10-21T23:43:46.719845+00:00 app[web.1]: 10.63.70.171 - - [21/Oct/2020 23:43:46] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-21T23:43:46.721657+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2264a308-cbd8-46d7-8fa3-d2e3dd887557 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:44.815584+00:00 app[web.1]: 10.47.180.171 - - [22/Oct/2020 00:10:44] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-22T00:10:44.818641+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=38281f21-1912-4e85-9c08-c054d70dbd00 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-22T00:10:44.872131+00:00 app[web.1]: 10.47.180.171 - - [22/Oct/2020 00:10:44] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-22T00:10:44.874628+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=962197e1-f096-45c7-8ffb-3c538d69896f fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=1117 protocol=https
+2020-10-22T00:10:44.907409+00:00 app[web.1]: 10.47.180.171 - - [22/Oct/2020 00:10:44] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-22T00:10:44.918188+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=936bc6cb-5f7a-4c6f-aa0c-4010de7f8238 fwd="74.66.216.64" dyno=web.1 connect=0ms service=14ms status=200 bytes=243856 protocol=https
+2020-10-22T00:10:44.945496+00:00 app[web.1]: 10.69.31.173 - - [22/Oct/2020 00:10:44] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:10:44.946482+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:44] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:10:44.953971+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=184f55d0-aeff-478b-a2f3-3169051ccdc6 fwd="74.66.216.64" dyno=web.1 connect=1ms service=14ms status=200 bytes=132444 protocol=https
+2020-10-22T00:10:44.956850+00:00 app[web.1]: 10.69.161.99 - - [22/Oct/2020 00:10:44] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:10:44.967896+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=fa008abc-795c-45fd-aeae-2ba1dd75e682 fwd="74.66.216.64" dyno=web.1 connect=1ms service=22ms status=200 bytes=160216 protocol=https
+2020-10-22T00:10:44.977356+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=61ad3536-9ab5-4fd1-8ec5-cce2ccfa484c fwd="74.66.216.64" dyno=web.1 connect=1ms service=37ms status=200 bytes=618300 protocol=https
+2020-10-22T00:10:45.137196+00:00 app[web.1]: AB_TESTING: A 1603325445056 0 0 vtcfxis
+2020-10-22T00:10:45.163184+00:00 app[web.1]: 10.47.180.171 - - [22/Oct/2020 00:10:45] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:10:45.165759+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=6b0312d3-cfe3-43a3-a810-7fd89d8fd94c fwd="74.66.216.64" dyno=web.1 connect=0ms service=30ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:49.648696+00:00 app[web.1]: AB_TESTING: A 1603325445056 1603325449625 mp1 vtcfxis
+2020-10-22T00:10:49.650884+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:49] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:10:49.651108+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=0a82e91b-e728-48a0-8e40-5b7473ed32e7 fwd="74.66.216.64" dyno=web.1 connect=0ms service=6ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:49.797320+00:00 app[web.1]: AB_TESTING: A 1603325445056 1603325449776 mp1 vtcfxis
+2020-10-22T00:10:49.798222+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=89617af0-c948-456e-a2f7-80b28a8b9096 fwd="74.66.216.64" dyno=web.1 connect=1ms service=8ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:49.798638+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:49] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:10:49.948855+00:00 app[web.1]: AB_TESTING: A 1603325445056 1603325449930 mp1 vtcfxis
+2020-10-22T00:10:49.950104+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=b2e8f582-255f-428c-9ea9-819936ef1de4 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:49.950522+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:49] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:10:51.565726+00:00 app[web.1]: AB_TESTING: A 1603325445056 1603325451542 mp2 vtcfxis
+2020-10-22T00:10:51.565894+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=b6006a8b-a936-448a-8b6d-194582c18ada fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:51.566587+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:51] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:10:51.712005+00:00 app[web.1]: AB_TESTING: A 1603325445056 1603325451688 mp2 vtcfxis
+2020-10-22T00:10:51.712437+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=911768ab-7e94-4a5b-970e-2d6b83cef691 fwd="74.66.216.64" dyno=web.1 connect=1ms service=9ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:51.712870+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:51] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:10:52.696504+00:00 app[web.1]: AB_TESTING: A 1603325445056 1603325452672 mp3 vtcfxis
+2020-10-22T00:10:52.696694+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=fc482544-5a1b-4b02-8acb-22ccc46a5146 fwd="74.66.216.64" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:52.697450+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:52] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:10:54.007651+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=24fd64c0-986f-457b-8108-3f14088442d0 fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:54.007787+00:00 app[web.1]: AB_TESTING: A 1603325445056 1603325453949 mp4 vtcfxis
+2020-10-22T00:10:54.008523+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:54] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:10:54.241361+00:00 app[web.1]: AB_TESTING: A 1603325445056 1603325454103 mp4 vtcfxis
+2020-10-22T00:10:54.243552+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=fab24884-bf8c-44e6-822b-96cf4167c843 fwd="74.66.216.64" dyno=web.1 connect=10ms service=22ms status=200 bytes=155 protocol=https
+2020-10-22T00:10:54.244255+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:10:54] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:11:21.265364+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:11:21] "[37mGET /checkout?version=A&mp1=3&mp2=2&mp3=1&mp4=2 HTTP/1.1[0m" 200 -
+2020-10-22T00:11:21.265438+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=3&mp2=2&mp3=1&mp4=2" host=murmuring-brook-73162.herokuapp.com request_id=b0d29f4e-86b5-470b-a8cd-ab3edd940058 fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=5236 protocol=https
+2020-10-22T00:11:21.331177+00:00 app[web.1]: AB_TESTING: C 1603325481312 0 0 vtcfxis
+2020-10-22T00:11:21.332072+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:11:21] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:11:21.332567+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=25a17bcd-6f19-43b4-b873-c834b3696b3c fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-22T00:11:23.896405+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=3&mp2=2&mp3=1&mp4=2" host=murmuring-brook-73162.herokuapp.com request_id=e85e4686-f4b3-4bb0-a435-aba0b2cbd741 fwd="74.66.216.64" dyno=web.1 connect=1ms service=6ms status=200 bytes=8883 protocol=https
+2020-10-22T00:11:23.896717+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:11:23] "[37mGET /?version=A&mp1=3&mp2=2&mp3=1&mp4=2 HTTP/1.1[0m" 200 -
+2020-10-22T00:11:23.992257+00:00 app[web.1]: AB_TESTING: A 1603325483940 0 0 vtcfxis
+2020-10-22T00:11:23.992870+00:00 app[web.1]: 10.63.255.131 - - [22/Oct/2020 00:11:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:11:23.993522+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=f4fb1356-ebb4-4bbd-8eaa-7cd4b22bf343 fwd="74.66.216.64" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:25.394404+00:00 app[web.1]: 10.109.218.102 - - [22/Oct/2020 00:37:25] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-22T00:37:25.395160+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=fc72bc76-6a81-43e0-b45c-fbcd6a002dd4 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-22T00:37:25.457480+00:00 app[web.1]: 10.109.218.102 - - [22/Oct/2020 00:37:25] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-22T00:37:25.458273+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=14544b9a-321f-4abb-9c5c-48ed260c3658 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=1117 protocol=https
+2020-10-22T00:37:25.526394+00:00 app[web.1]: 10.109.218.102 - - [22/Oct/2020 00:37:25] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-22T00:37:25.535294+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=f38f3157-916c-4483-970f-e4b28173b877 fwd="74.66.216.64" dyno=web.1 connect=1ms service=11ms status=200 bytes=243856 protocol=https
+2020-10-22T00:37:25.555915+00:00 app[web.1]: 10.63.249.212 - - [22/Oct/2020 00:37:25] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:37:25.557408+00:00 app[web.1]: 10.31.72.133 - - [22/Oct/2020 00:37:25] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:37:25.559365+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:25] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:37:25.568936+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=68bbbf7d-ba9b-4d90-bed1-c3b81e7a6653 fwd="74.66.216.64" dyno=web.1 connect=0ms service=16ms status=200 bytes=160216 protocol=https
+2020-10-22T00:37:25.570531+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=843c35b0-8dbd-42b3-9949-2f586dca1558 fwd="74.66.216.64" dyno=web.1 connect=0ms service=17ms status=200 bytes=132444 protocol=https
+2020-10-22T00:37:25.582694+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=c58114d0-0b3b-48d1-ae19-237932f640a5 fwd="74.66.216.64" dyno=web.1 connect=0ms service=29ms status=200 bytes=618300 protocol=https
+2020-10-22T00:37:25.751478+00:00 app[web.1]: AB_TESTING: A 1603327045722 0 0 jxvnoimm
+2020-10-22T00:37:25.752344+00:00 app[web.1]: 10.109.218.102 - - [22/Oct/2020 00:37:25] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:25.757933+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=4a6be6b1-edee-4e15-8966-5e0fb9900a14 fwd="74.66.216.64" dyno=web.1 connect=0ms service=9ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:26.977304+00:00 app[web.1]: AB_TESTING: A 1603327045722 1603327046956 mp1 jxvnoimm
+2020-10-22T00:37:26.978300+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:26.980328+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=8774d7d9-a0eb-47f0-9a6b-5025c1a9089f fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:27.172697+00:00 app[web.1]: AB_TESTING: A 1603327045722 1603327047149 mp1 jxvnoimm
+2020-10-22T00:37:27.173621+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:27.175692+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=4ddaf9f3-687b-4ace-99b1-a9eb617511a9 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:27.304964+00:00 app[web.1]: AB_TESTING: A 1603327045722 1603327047293 mp1 jxvnoimm
+2020-10-22T00:37:27.305458+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:27.306895+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=4228330c-582e-4456-ade8-c6fb9672e817 fwd="74.66.216.64" dyno=web.1 connect=0ms service=2ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:28.501427+00:00 app[web.1]: AB_TESTING: A 1603327045722 1603327048485 mp3 jxvnoimm
+2020-10-22T00:37:28.501973+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:28.503550+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ad0464a2-9dac-4c58-896b-da6f1483021a fwd="74.66.216.64" dyno=web.1 connect=3ms service=2ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:29.513055+00:00 app[web.1]: AB_TESTING: A 1603327045722 1603327049503 mp2 jxvnoimm
+2020-10-22T00:37:29.513934+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:29.515572+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=bc126385-b683-42b7-81b3-d7cd43c049ba fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:30.906410+00:00 app[web.1]: AB_TESTING: A 1603327045722 1603327050894 mp4 jxvnoimm
+2020-10-22T00:37:30.907023+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:30.908446+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cef92990-0e6d-4828-90fa-e5520ed11758 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:36.113442+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:36] "[37mGET /checkout?version=A&mp1=3&mp2=1&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:37:36.120838+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=3&mp2=1&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=7080c3bc-7ca4-4e91-988b-6cffb9a80628 fwd="74.66.216.64" dyno=web.1 connect=1ms service=15ms status=200 bytes=5236 protocol=https
+2020-10-22T00:37:36.179434+00:00 app[web.1]: AB_TESTING: C 1603327056168 0 0 jxvnoimm
+2020-10-22T00:37:36.181741+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:36] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:36.183351+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=8501d955-d078-4d2d-90ec-675a08223697 fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:37.172190+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:37] "[37mGET /?version=A&mp1=3&mp2=1&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:37:37.178213+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=3&mp2=1&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=f8c439e9-2783-45f9-b51f-e6add07caeef fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=8883 protocol=https
+2020-10-22T00:37:37.241679+00:00 app[web.1]: AB_TESTING: A 1603327057222 0 0 jxvnoimm
+2020-10-22T00:37:37.242917+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:37.244615+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=233a5fbb-13c1-4e44-bbbb-a3894309254c fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:37.951632+00:00 app[web.1]: AB_TESTING: A 1603327057222 1603327057911 mp1 jxvnoimm
+2020-10-22T00:37:37.952256+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:37.954038+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=78133900-e315-4e57-8d23-0c9d8952500e fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:39.075804+00:00 app[web.1]: AB_TESTING: A 1603327057222 1603327059059 mp1 jxvnoimm
+2020-10-22T00:37:39.077066+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:39] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:39.078627+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=455b85a1-8e1d-4d8b-a60e-7f615bac2a5c fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:40.581152+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:40] "[37mGET /checkout?version=A&mp1=5&mp2=1&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:37:40.582820+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=5&mp2=1&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=dc4bbcfd-09f0-49e0-acac-b1b399c2366c fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=5236 protocol=https
+2020-10-22T00:37:40.657514+00:00 app[web.1]: AB_TESTING: C 1603327060622 0 0 jxvnoimm
+2020-10-22T00:37:40.658350+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:40.659766+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=9958f3a5-590b-45f2-b2f6-814d24c0eb18 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:41.865150+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:41] "[37mGET /?version=A&mp1=5&mp2=1&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:37:41.867159+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=5&mp2=1&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=67df36fe-51c6-4fc4-9540-a561f2c59ec3 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-22T00:37:41.926011+00:00 app[web.1]: AB_TESTING: A 1603327061913 0 0 jxvnoimm
+2020-10-22T00:37:41.926908+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:41] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:41.928532+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2c6be2c6-13ed-44df-961a-c3513fbf8a9a fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:43.424379+00:00 app[web.1]: AB_TESTING: A 1603327061913 1603327063409 mp2 jxvnoimm
+2020-10-22T00:37:43.425097+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:43.426590+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=d5132c59-9ed4-4c8a-a578-372fae846bc0 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:44.937305+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:44] "[37mGET /checkout?version=A&mp1=5&mp2=2&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:37:44.939952+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=5&mp2=2&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=b7b1c93d-4443-4804-8b77-7fc89dd772ce fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=5236 protocol=https
+2020-10-22T00:37:45.007120+00:00 app[web.1]: AB_TESTING: C 1603327064978 0 0 jxvnoimm
+2020-10-22T00:37:45.007764+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:45] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:45.009192+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ba286a5c-ca02-4489-a51e-793e6bc272e4 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:46.056892+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:46] "[37mGET /?version=A&mp1=5&mp2=2&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:37:46.058822+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=5&mp2=2&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=2e2c9a83-90ec-45cc-9207-e3ace4583b08 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=8883 protocol=https
+2020-10-22T00:37:46.124280+00:00 app[web.1]: AB_TESTING: A 1603327066105 0 0 jxvnoimm
+2020-10-22T00:37:46.125084+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:46] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:46.126538+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cc973946-41f1-4129-a206-2c6081568e17 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:46.882885+00:00 app[web.1]: AB_TESTING: A 1603327066105 1603327066871 mp1 jxvnoimm
+2020-10-22T00:37:46.883571+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:46] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:46.885213+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=714fa4f3-71c3-4e35-9d6c-a255b56aa886 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:47.028853+00:00 app[web.1]: AB_TESTING: A 1603327066105 1603327067017 mp1 jxvnoimm
+2020-10-22T00:37:47.029996+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:47] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:47.031697+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=785cf33b-4a0e-43fc-b9f4-421c9d530742 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:37:48.363655+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:48] "[37mGET /checkout?version=A&mp1=7&mp2=2&mp3=1&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:37:48.365173+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=7&mp2=2&mp3=1&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=38ade4c5-5a9f-4b24-9e00-feb855d0d8eb fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=5236 protocol=https
+2020-10-22T00:37:48.427590+00:00 app[web.1]: AB_TESTING: C 1603327068412 0 0 jxvnoimm
+2020-10-22T00:37:48.428518+00:00 app[web.1]: 10.13.174.43 - - [22/Oct/2020 00:37:48] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:37:48.430207+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=a4700d81-dc24-4906-b949-f192c2058e15 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:18.005957+00:00 app[web.1]: 10.30.61.206 - - [22/Oct/2020 00:43:18] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-22T00:43:18.006492+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=440b50db-cbf9-481a-9ade-1402c7e4f521 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=8883 protocol=https
+2020-10-22T00:43:18.060521+00:00 app[web.1]: 10.30.61.206 - - [22/Oct/2020 00:43:18] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-22T00:43:18.060906+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=bc8431dc-0546-4a16-8e46-86aeb73e2635 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=1117 protocol=https
+2020-10-22T00:43:18.122715+00:00 app[web.1]: 10.30.61.206 - - [22/Oct/2020 00:43:18] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-22T00:43:18.134749+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=162f3a83-0f1a-4fda-8320-448993988282 fwd="74.66.216.64" dyno=web.1 connect=0ms service=15ms status=200 bytes=243856 protocol=https
+2020-10-22T00:43:18.154189+00:00 app[web.1]: 10.5.185.29 - - [22/Oct/2020 00:43:18] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:43:18.156400+00:00 app[web.1]: 10.157.87.30 - - [22/Oct/2020 00:43:18] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:43:18.159446+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:18] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:43:18.164455+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=a3f7632e-1c2f-4385-a6cb-9e51e3cea68b fwd="74.66.216.64" dyno=web.1 connect=0ms service=14ms status=200 bytes=132444 protocol=https
+2020-10-22T00:43:18.169473+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=836c7cc4-498d-4efb-ab3e-41a95162c114 fwd="74.66.216.64" dyno=web.1 connect=0ms service=18ms status=200 bytes=160216 protocol=https
+2020-10-22T00:43:18.195244+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=0613943e-1214-457d-8eb1-b40d2d472cb7 fwd="74.66.216.64" dyno=web.1 connect=0ms service=42ms status=200 bytes=618300 protocol=https
+2020-10-22T00:43:18.270002+00:00 app[web.1]: AB_TESTING: A 1603327398237 0 0 bxtat
+2020-10-22T00:43:18.270793+00:00 app[web.1]: 10.30.61.206 - - [22/Oct/2020 00:43:18] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:18.271092+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1e565d97-fea2-4589-abf8-fa7ea8aca0c3 fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:21.176783+00:00 app[web.1]: AB_TESTING: A 1603327398237 1603327401163 mp1 bxtat
+2020-10-22T00:43:21.177466+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:21] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:21.179786+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=595f4fc4-2447-4e87-9c5b-9eb847eef6c3 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:22.515072+00:00 app[web.1]: AB_TESTING: A 1603327398237 1603327402496 mp4 bxtat
+2020-10-22T00:43:22.515971+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:22] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:22.518248+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1aa404f7-d6d0-47a3-aa96-883d8b496aa8 fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:23.761649+00:00 app[web.1]: AB_TESTING: A 1603327398237 1603327403748 mp3 bxtat
+2020-10-22T00:43:23.762390+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:23.764627+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=6b7bc148-777b-43f4-aca1-25196391cdc1 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:24.948288+00:00 app[web.1]: AB_TESTING: A 1603327398237 1603327404932 mp2 bxtat
+2020-10-22T00:43:24.949037+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:24.952892+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=5c72f06a-0c6d-4a62-906d-0ac61a6d9199 fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:26.004509+00:00 app[web.1]: AB_TESTING: A 1603327398237 1603327405990 mp1 bxtat
+2020-10-22T00:43:26.005974+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:26.012228+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=9520d2f6-4552-4c04-a79c-ad89fbb11d0a fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:27.211071+00:00 app[web.1]: AB_TESTING: A 1603327398237 1603327407186 mp4 bxtat
+2020-10-22T00:43:27.212150+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:27.214422+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=d1a7cddd-1133-40be-868d-591f9ced7e68 fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:27.934594+00:00 app[web.1]: AB_TESTING: A 1603327398237 1603327407906 mp3 bxtat
+2020-10-22T00:43:27.935276+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:27.937443+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=7269c8ad-02d5-4c9e-8c24-1462923421c0 fwd="74.66.216.64" dyno=web.1 connect=0ms service=10ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:28.959309+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:28] "[37mGET /checkout?version=A&mp1=2&mp2=1&mp3=2&mp4=2 HTTP/1.1[0m" 200 -
+2020-10-22T00:43:28.961949+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=2&mp2=1&mp3=2&mp4=2" host=murmuring-brook-73162.herokuapp.com request_id=6f92af94-ee4b-43ec-b289-dcfaa896bf3f fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=5236 protocol=https
+2020-10-22T00:43:29.023593+00:00 app[web.1]: AB_TESTING: C 1603327409012 0 0 bxtat
+2020-10-22T00:43:29.024439+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:29] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:29.026534+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=2a3daf53-f40a-4a4f-9100-ed7efec03ccc fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:43:29.976806+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:29] "[37mGET /?version=A&mp1=2&mp2=1&mp3=2&mp4=2 HTTP/1.1[0m" 200 -
+2020-10-22T00:43:29.982633+00:00 heroku[router]: at=info method=GET path="/?version=A&mp1=2&mp2=1&mp3=2&mp4=2" host=murmuring-brook-73162.herokuapp.com request_id=c792eaea-99d4-4403-96f0-93fc79a7ac25 fwd="74.66.216.64" dyno=web.1 connect=0ms service=10ms status=200 bytes=8883 protocol=https
+2020-10-22T00:43:30.039130+00:00 app[web.1]: AB_TESTING: A 1603327410027 0 0 bxtat
+2020-10-22T00:43:30.041802+00:00 app[web.1]: 10.155.88.71 - - [22/Oct/2020 00:43:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:43:30.044019+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=e7b64e92-d3a7-4942-8bf8-5ac8beacacff fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-22T00:44:22.164101+00:00 app[web.1]: 10.11.150.203 - - [22/Oct/2020 00:44:22] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-22T00:44:22.165354+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=3df81543-e4cf-47c0-8d86-18155cc3189f fwd="74.66.216.64" dyno=web.1 connect=1ms service=5ms status=200 bytes=9188 protocol=https
+2020-10-22T00:44:22.226492+00:00 app[web.1]: 10.11.150.203 - - [22/Oct/2020 00:44:22] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-22T00:44:22.231237+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=d376988c-e12f-416f-873e-814025874b15 fwd="74.66.216.64" dyno=web.1 connect=1ms service=8ms status=200 bytes=1117 protocol=https
+2020-10-22T00:44:22.305668+00:00 app[web.1]: 10.11.150.203 - - [22/Oct/2020 00:44:22] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-22T00:44:22.319713+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=80bad212-eba4-4ce1-ae19-1da3461b2356 fwd="74.66.216.64" dyno=web.1 connect=2ms service=17ms status=200 bytes=243856 protocol=https
+2020-10-22T00:44:22.339789+00:00 app[web.1]: 10.47.227.158 - - [22/Oct/2020 00:44:22] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:44:22.346934+00:00 app[web.1]: 10.45.161.126 - - [22/Oct/2020 00:44:22] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:44:22.349983+00:00 app[web.1]: 10.45.38.114 - - [22/Oct/2020 00:44:22] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-22T00:44:22.361242+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=810f2543-46cb-44bb-a014-6933cd7ed2ef fwd="74.66.216.64" dyno=web.1 connect=1ms service=22ms status=200 bytes=132444 protocol=https
+2020-10-22T00:44:22.361265+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=d58f1be6-5ac2-4899-a670-8eb8b008d5d8 fwd="74.66.216.64" dyno=web.1 connect=1ms service=16ms status=200 bytes=160216 protocol=https
+2020-10-22T00:44:22.362684+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=fd8d5959-719b-42ca-a02f-2bc4f167a455 fwd="74.66.216.64" dyno=web.1 connect=0ms service=26ms status=200 bytes=618300 protocol=https
+2020-10-22T00:44:22.467482+00:00 app[web.1]: AB_TESTING: B 1603327462447 0 0 qobifednc
+2020-10-22T00:44:22.470164+00:00 app[web.1]: 10.11.150.203 - - [22/Oct/2020 00:44:22] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:44:22.471458+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=40a71deb-a0d3-474b-842c-5a133ab97e46 fwd="74.66.216.64" dyno=web.1 connect=3ms service=6ms status=200 bytes=155 protocol=https
+2020-10-22T00:44:23.918464+00:00 app[web.1]: AB_TESTING: B 1603327462447 1603327463903 mp1 qobifednc
+2020-10-22T00:44:23.919033+00:00 app[web.1]: 10.47.227.158 - - [22/Oct/2020 00:44:23] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:44:23.919910+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=9d3dc785-8daf-4319-b474-0fe289c3c335 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:44:25.637687+00:00 app[web.1]: AB_TESTING: B 1603327462447 1603327465626 mp3 qobifednc
+2020-10-22T00:44:25.638672+00:00 app[web.1]: 10.47.227.158 - - [22/Oct/2020 00:44:25] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:44:25.639232+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ffb91cbe-094a-4429-83e4-498c3fd13cce fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:44:25.911369+00:00 app[web.1]: AB_TESTING: B 1603327462447 1603327465902 mp3 qobifednc
+2020-10-22T00:44:25.912012+00:00 app[web.1]: 10.47.227.158 - - [22/Oct/2020 00:44:25] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:44:25.918647+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=72006ac0-e775-4633-a521-77d84d3706ec fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T00:45:27.642937+00:00 app[web.1]: AB_TESTING: B 1603327462447 1603327527485 mp4 qobifednc
+2020-10-22T00:45:27.650483+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:27] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:45:27.653963+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=a244ce10-d31d-49af-a22f-091dd74c4cdd fwd="74.66.216.64" dyno=web.1 connect=0ms service=20ms status=200 bytes=155 protocol=https
+2020-10-22T00:45:28.372200+00:00 app[web.1]: AB_TESTING: B 1603327462447 1603327528340 mp3 qobifednc
+2020-10-22T00:45:28.374213+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=c0a4a752-77b2-4d23-ad3c-d8edd1d46b02 fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=155 protocol=https
+2020-10-22T00:45:28.374424+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:45:31.624610+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:31] "[37mGET /checkout?version=B&mp1=1&mp2=0&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:45:31.627924+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=1&mp2=0&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=9b195223-39f1-4f3b-932a-0315f4f3972c fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=5236 protocol=https
+2020-10-22T00:45:31.687987+00:00 app[web.1]: AB_TESTING: C 1603327531670 0 0 qobifednc
+2020-10-22T00:45:31.688572+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:31] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:45:31.689105+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=9ada7373-2e69-40da-b6a9-5eb7a2382a9a fwd="74.66.216.64" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-22T00:45:34.285727+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=1&mp2=0&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=576a0ded-8374-4e6c-ac9b-4b9176c86639 fwd="74.66.216.64" dyno=web.1 connect=2ms service=3ms status=200 bytes=9188 protocol=https
+2020-10-22T00:45:34.285962+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:34] "[37mGET /?version=B&mp1=1&mp2=0&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:45:34.351991+00:00 app[web.1]: AB_TESTING: B 1603327534332 0 0 qobifednc
+2020-10-22T00:45:34.353848+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:34] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:45:34.355637+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=d3a19ae6-7fb5-4383-87ce-7f90a3c3a3bb fwd="74.66.216.64" dyno=web.1 connect=0ms service=7ms status=200 bytes=155 protocol=https
+2020-10-22T00:45:40.012604+00:00 app[web.1]: AB_TESTING: B 1603327534332 1603327539956 mp2 qobifednc
+2020-10-22T00:45:40.015315+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:40] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:45:40.015501+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=cf8cb8e7-67d3-4b39-ae35-f2569201d042 fwd="74.66.216.64" dyno=web.1 connect=0ms service=6ms status=200 bytes=155 protocol=https
+2020-10-22T00:45:42.051014+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:42] "[37mGET /checkout?version=B&mp1=1&mp2=1&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:45:42.056495+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=1&mp2=1&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=ab53562d-5e72-4be2-b52e-d75eda691c9f fwd="74.66.216.64" dyno=web.1 connect=6ms service=54ms status=200 bytes=5236 protocol=https
+2020-10-22T00:45:42.116461+00:00 app[web.1]: AB_TESTING: C 1603327542095 0 0 qobifednc
+2020-10-22T00:45:42.119773+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:42] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:45:42.119780+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=11ffeecc-20e1-4d40-aeea-330226c836f9 fwd="74.66.216.64" dyno=web.1 connect=0ms service=8ms status=200 bytes=155 protocol=https
+2020-10-22T00:45:43.096840+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:43] "[37mGET /?version=B&mp1=1&mp2=1&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:45:43.097517+00:00 heroku[router]: at=info method=GET path="/?version=B&mp1=1&mp2=1&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=ddd92903-f738-43ff-8181-82a848536b84 fwd="74.66.216.64" dyno=web.1 connect=0ms service=6ms status=200 bytes=9188 protocol=https
+2020-10-22T00:45:43.163950+00:00 app[web.1]: AB_TESTING: B 1603327543138 0 0 qobifednc
+2020-10-22T00:45:43.164596+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=530cd57a-b020-46e7-9c8b-b33a8a0d9395 fwd="74.66.216.64" dyno=web.1 connect=0ms service=5ms status=200 bytes=155 protocol=https
+2020-10-22T00:45:43.164789+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:43] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:45:45.047657+00:00 app[web.1]: AB_TESTING: B 1603327543138 1603327544946 mp2 qobifednc
+2020-10-22T00:45:45.056391+00:00 app[web.1]: 10.13.252.86 - - [22/Oct/2020 00:45:45] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:45:45.069932+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=394e5d8e-c2d4-47d8-8b73-6efdb85f7430 fwd="74.66.216.64" dyno=web.1 connect=0ms service=34ms status=200 bytes=155 protocol=https
+2020-10-22T00:46:55.269482+00:00 app[web.1]: 10.16.200.69 - - [22/Oct/2020 00:46:55] "[37mGET /checkout?version=B&mp1=1&mp2=2&mp3=3&mp4=1 HTTP/1.1[0m" 200 -
+2020-10-22T00:46:55.272006+00:00 heroku[router]: at=info method=GET path="/checkout?version=B&mp1=1&mp2=2&mp3=3&mp4=1" host=murmuring-brook-73162.herokuapp.com request_id=1d12903c-28ef-4a83-9ae1-42ea14000ba5 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=5236 protocol=https
+2020-10-22T00:46:55.331282+00:00 app[web.1]: AB_TESTING: C 1603327615310 0 0 qobifednc
+2020-10-22T00:46:55.332189+00:00 app[web.1]: 10.16.200.69 - - [22/Oct/2020 00:46:55] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T00:46:55.334186+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=631985bc-c0e0-4c51-a8ba-164361955037 fwd="74.66.216.64" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T01:19:44.776174+00:00 heroku[web.1]: Idling
+2020-10-22T01:19:44.778320+00:00 heroku[web.1]: State changed from up to down
+2020-10-22T01:19:45.785530+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-22T01:19:45.926607+00:00 heroku[web.1]: Process exited with status 0
+2020-10-22T16:34:37.367345+00:00 heroku[web.1]: Unidling
+2020-10-22T16:34:37.382727+00:00 heroku[web.1]: State changed from down to starting
+2020-10-22T16:34:41.424852+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-22T16:34:44.376815+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-22T16:34:44.382000+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-22T16:34:44.382041+00:00 app[web.1]: * Environment: production
+2020-10-22T16:34:44.382095+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-22T16:34:44.382134+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-22T16:34:44.382166+00:00 app[web.1]: * Debug mode: on
+2020-10-22T16:34:44.389686+00:00 app[web.1]: * Running on http://0.0.0.0:13102/ (Press CTRL+C to quit)
+2020-10-22T16:34:44.390413+00:00 app[web.1]: * Restarting with stat
+2020-10-22T16:34:44.637926+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-22T16:34:44.648737+00:00 app[web.1]: * Debugger is active!
+2020-10-22T16:34:44.649998+00:00 app[web.1]: * Debugger PIN: 187-931-637
+2020-10-22T16:34:45.498963+00:00 heroku[web.1]: State changed from starting to up
+2020-10-22T16:34:46.441937+00:00 heroku[router]: at=info method=GET path="/" host=murmuring-brook-73162.herokuapp.com request_id=b28d8013-4574-4162-bcf8-a0c82a552fe0 fwd="172.112.196.236" dyno=web.1 connect=0ms service=10ms status=200 bytes=8883 protocol=https
+2020-10-22T16:34:46.476801+00:00 app[web.1]: 10.61.214.174 - - [22/Oct/2020 16:34:46] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-22T16:34:46.556172+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=murmuring-brook-73162.herokuapp.com request_id=435fea37-5c41-4522-b00c-55cf500e05f6 fwd="172.112.196.236" dyno=web.1 connect=0ms service=3ms status=200 bytes=1117 protocol=https
+2020-10-22T16:34:46.592023+00:00 app[web.1]: 10.61.214.174 - - [22/Oct/2020 16:34:46] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-22T16:34:46.661902+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=murmuring-brook-73162.herokuapp.com request_id=2435acfb-03bc-4e94-a93c-05a4188f68a3 fwd="172.112.196.236" dyno=web.1 connect=1ms service=9ms status=200 bytes=243856 protocol=https
+2020-10-22T16:34:46.690590+00:00 app[web.1]: 10.61.214.174 - - [22/Oct/2020 16:34:46] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-22T16:34:46.798189+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ea2fd7c2-392e-4d25-a18b-223c87047355 fwd="172.112.196.236" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T16:34:46.799287+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=murmuring-brook-73162.herokuapp.com request_id=5fb1fda1-ece8-4529-83cd-54b1a4d7f9f2 fwd="172.112.196.236" dyno=web.1 connect=1ms service=27ms status=200 bytes=618300 protocol=https
+2020-10-22T16:34:46.811027+00:00 app[web.1]: 10.37.156.31 - - [22/Oct/2020 16:34:46] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-22T16:34:46.827006+00:00 app[web.1]: AB_TESTING: A 1603384487845 0 0 sdadaos
+2020-10-22T16:34:46.827487+00:00 app[web.1]: 10.9.250.56 - - [22/Oct/2020 16:34:46] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T16:34:46.859932+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=murmuring-brook-73162.herokuapp.com request_id=1667294e-f551-4afd-9886-d411fc37a575 fwd="172.112.196.236" dyno=web.1 connect=1ms service=15ms status=200 bytes=132444 protocol=https
+2020-10-22T16:34:46.884537+00:00 app[web.1]: 10.168.89.215 - - [22/Oct/2020 16:34:46] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-22T16:34:47.028681+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=murmuring-brook-73162.herokuapp.com request_id=d3bed308-68dc-4a99-a29f-9cbbd351230f fwd="172.112.196.236" dyno=web.1 connect=0ms service=10ms status=200 bytes=160216 protocol=https
+2020-10-22T16:34:47.056441+00:00 app[web.1]: 10.61.214.174 - - [22/Oct/2020 16:34:47] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-22T16:34:47.613276+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=murmuring-brook-73162.herokuapp.com request_id=d2853fa8-f2f6-4d95-89f8-101515989a7d fwd="172.112.196.236" dyno=web.1 connect=1ms service=3ms status=404 bytes=394 protocol=https
+2020-10-22T16:34:47.648809+00:00 app[web.1]: 10.37.156.31 - - [22/Oct/2020 16:34:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-22T16:36:36.842173+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=a008ded1-c029-4ccf-b52b-72d5f0768910 fwd="172.112.196.236" dyno=web.1 connect=1ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T16:36:36.880966+00:00 app[web.1]: AB_TESTING: A 1603384487845 1603384597633 mp1 sdadaos
+2020-10-22T16:36:36.881603+00:00 app[web.1]: 10.45.155.176 - - [22/Oct/2020 16:36:36] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T16:36:37.016993+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=34943dfc-f91f-4836-80d1-56304727934b fwd="172.112.196.236" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T16:36:37.055065+00:00 app[web.1]: AB_TESTING: A 1603384487845 1603384598096 mp2 sdadaos
+2020-10-22T16:36:37.055618+00:00 app[web.1]: 10.45.155.176 - - [22/Oct/2020 16:36:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T16:36:37.153482+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=ed0ea402-bb2f-4017-82d8-1658cbb9ca28 fwd="172.112.196.236" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T16:36:37.186790+00:00 app[web.1]: AB_TESTING: A 1603384487845 1603384598227 mp2 sdadaos
+2020-10-22T16:36:37.187342+00:00 app[web.1]: 10.45.155.176 - - [22/Oct/2020 16:36:37] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T16:36:38.646592+00:00 heroku[router]: at=info method=GET path="/checkout?version=A&mp1=1&mp2=2&mp3=0&mp4=0" host=murmuring-brook-73162.herokuapp.com request_id=ca9700f3-f102-4881-8607-95335d031a57 fwd="172.112.196.236" dyno=web.1 connect=0ms service=9ms status=200 bytes=5236 protocol=https
+2020-10-22T16:36:38.681090+00:00 app[web.1]: 10.45.155.176 - - [22/Oct/2020 16:36:38] "[37mGET /checkout?version=A&mp1=1&mp2=2&mp3=0&mp4=0 HTTP/1.1[0m" 200 -
+2020-10-22T16:36:38.855851+00:00 heroku[router]: at=info method=POST path="/data" host=murmuring-brook-73162.herokuapp.com request_id=1099253d-93fc-45ec-9e1e-d8ab2afa6551 fwd="172.112.196.236" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-22T16:36:38.894356+00:00 app[web.1]: AB_TESTING: C 1603384599934 0 0 sdadaos
+2020-10-22T16:36:38.894932+00:00 app[web.1]: 10.45.155.176 - - [22/Oct/2020 16:36:38] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-22T17:09:34.033022+00:00 heroku[web.1]: Idling
+2020-10-22T17:09:34.035389+00:00 heroku[web.1]: State changed from up to down
+2020-10-22T17:09:35.176630+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-22T17:09:35.336615+00:00 heroku[web.1]: Process exited with status 0
